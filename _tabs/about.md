@@ -22,16 +22,16 @@ For business/non-business contact: <a target="_blank" href="mailto:katorly@qq.co
 
 ## 📊 My Statistics
 <br>
-<p align="center"><img width="48%" src="https://github-stats-katorly.vercel.app/api?username=katorly&title_color=42B883&show_icons=true&icon_color=DC352C&include_all_commits=true"> <img width="48%" src="http://github-readme-streak-stats.herokuapp.com?user=katorly&theme=vue&date_format=%5BY.%5Dn.j&dates=000000"></p>
+<p align="center"><img width="48%" src="https://github-stats-katorly.vercel.app/api?username=katorly&title_color=42B883&show_icons=true&icon_color=DC352C&include_all_commits=true" alt="Statistics"> <img width="48%" src="http://github-readme-streak-stats.herokuapp.com?user=katorly&theme=vue&date_format=%5BY.%5Dn.j&dates=000000" alt="Statistics"></p>
 <br>
 
 ## 🔗 Social Links
-<p align="left"><a target="_blank" href="https://github.com/katorly"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/github.png"></a>
-<a target="_blank" href="https://www.spigotmc.org/members/katorly.1301379/#resources"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/spigotmc.png"></a>
-<a target="_blank" href="https://www.planetminecraft.com/member/katorly"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/planetminecraft.png"></a>
-<a target="_blank" href="https://www.mcbbs.net/?3094455"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/mcbbs.png"></a>
-<a target="_blank" href="https://www.buymeacoffee.com/katorly"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/buymeacoffee.png"></a>
-<a target="_blank" href="mailto:katorly@qq.com"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/email.png"></a></p>
+<p align="left"><a target="_blank" href="https://github.com/katorly"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/github.png" alt="Github"></a>
+<a target="_blank" href="https://www.spigotmc.org/members/katorly.1301379/#resources"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/spigotmc.png" alt="SpigotMC"></a>
+<a target="_blank" href="https://www.planetminecraft.com/member/katorly"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/planetminecraft.png" alt="PlanetMinecraft"></a>
+<a target="_blank" href="https://www.mcbbs.net/?3094455"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/mcbbs.png" alt="MCBBS"></a>
+<a target="_blank" href="https://www.buymeacoffee.com/katorly"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/buymeacoffee.png" alt="BuyMeACoffee"></a>
+<a target="_blank" href="mailto:katorly@qq.com"><img width="5%" src="https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/email.png" alt="Email"></a></p>
 
 <br>
 <br>

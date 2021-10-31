@@ -23,9 +23,8 @@ title: Katorly                         # the main title
 tagline: Personal Blog   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Personal blog of Katorly.
+  Welcome to visit.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://katorly.github.io'
@@ -82,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://cdn.jsdelivr.net/gh/katorly/Gallery001/profile/katorly.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true

@@ -3,7 +3,6 @@ title: Writing a New Post
 date: 2018-08-08 00:01:00 +0800
 categories: [Miscellaneous]
 tags: [writing]
-toc: true
 ---
 
 ## Naming and Path
