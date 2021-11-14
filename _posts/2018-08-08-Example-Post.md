@@ -1,8 +1,8 @@
 ---
 title: Example Post
 date: 2018-08-08 00:00:00 +0800
-categories: [Miscellaneous, Uncategorized]
-tags: [writing]     # TAG names should always be lowercase
+categories: [Uncategorized]
+# tags: [writing]     # TAG names should always be lowercase
 toc: true     # Table of contents
 math: true
 mermaid: true

@@ -1,8 +1,7 @@
 ---
 title: Writing a New Post
-date: 2018-08-08 00:01:00 +0800
-categories: [Miscellaneous]
-tags: [writing]
+date: 2018-08-08 00:00:01 +0800
+categories: [Uncategorized]
 ---
 
 ## Naming and Path
