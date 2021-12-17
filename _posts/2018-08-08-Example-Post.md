@@ -7,7 +7,7 @@ toc: true     # Table of contents
 math: true
 mermaid: true
 image:
-  src: https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/Katorly%20Code%20Lab%20GIF.gif
+  src: https://cdn.jsdelivr.net/gh/katorly/katorly/SocialLinks/Katorly%20Lab%20GIF.gif
   width: 1661
   height: 459
   alt: example image
