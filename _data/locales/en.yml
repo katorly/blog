@@ -43,7 +43,7 @@ copyright:
     link: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
   # Displayed in the footer
-  brief: Some rights reserved.
+  brief: All rights reserved.
   verbose: >-
     Except where otherwise noted, the blog posts on this site are licensed
     under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License by the author.
@@ -51,7 +51,7 @@ copyright:
 meta: Hosted by Github Pages.
 
 not_found:
-  statment: Oops! The page was swalloed by the Enderdragon!
+  statment: Oops! The page was swallowed by the Enderdragon!
   hint_template: :HEAD_BAK to try finding it again, or search for it on the :ARCHIVES_PAGE.
   head_back: Head back Home
   archives_page: Archives page
@@ -80,7 +80,7 @@ post:
       succeed: Copied!
     share_link:
       title: Copy link
-      succeed: Link copied successfully!
+      succeed: Link copied!
   # pinned prompt of posts list on homepage
   pin_prompt: Pinned
 
