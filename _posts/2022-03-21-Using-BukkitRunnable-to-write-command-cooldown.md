@@ -8,7 +8,7 @@ categories: [Java, Bukkit]
 
 ## 准备工作
 ### 开发环境
-- Gitpod Online Development
+- Gitpod online vscode
 - Java 17
 - Minecraft Spigot 1.18.2
 
@@ -42,10 +42,10 @@ public List<UUID> listCooldown = new ArrayList<>();
 接下来，判断指令输入者是否为玩家（因为后台也能输入指令，后台没有UUID，也不会有人去刷指令，如果要冷却需要另外处理，非常简单所以我这里就不赘述了）：
 ```java
 if (!(sender instanceof Player)) {
-        //如果不是玩家，你的代码
-    } else {
-        //如果是玩家，你的代码
-    }
+    //如果不是玩家，你的代码
+} else {
+    //如果是玩家，你的代码
+}
 ```
 当玩家输入指令后，我们要先判断其是否处于冷却状态：
 ```java
