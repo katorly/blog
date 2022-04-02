@@ -36,7 +36,7 @@ categories: [Minecraft, Community]
 ## v4中的组件
 在客户端Console显示的版权信息：  
 ![](https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/在Console的信息.PNG)
-如果你也想实现这种文字，可以去[Text to ASCII](patorjk.com/software/taag)生成。  
+如果你也想实现这种文字，可以去[Text to ASCII](https://patorjk.com/software/taag)生成。  
 
 点赞、收藏、删除、举报：  
 ![](https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/点赞收藏删除举报.PNG)  
