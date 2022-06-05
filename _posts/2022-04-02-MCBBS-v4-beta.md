@@ -1,6 +1,6 @@
 ---
 title: 在去MC化的道路上——MCBBSv4测评
-date: 2022-04-02 00:09:05 +0800
+date: 2022-04-02 09:05:00 +0800
 categories: [Minecraft, Community]
 ---
 

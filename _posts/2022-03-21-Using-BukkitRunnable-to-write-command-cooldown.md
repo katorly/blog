@@ -1,6 +1,6 @@
 ---
 title: 写一个能冷却的指令——BukkitRunnable的应用
-date: 2022-03-21 00:22:25 +0800
+date: 2022-03-21 22:25:00 +0800
 categories: [Java, Bukkit]
 ---
 
