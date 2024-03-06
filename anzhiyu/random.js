@@ -1,0 +1,3 @@
+var posts=["Example-Post/","Website-for-Icons/","Buying-Minecraft-Again/","Using-BukkitRunnable-to-write-command-cooldown/","MCBBS-v4-beta/","Solving-Github-Copilot-DNS-Address/","Derivative-2/","Derivative-3/","Derivative-4/","Derivative-5/","Derivative-6/","Win11-Right-Click-Menu/","Win11-Shortcut-Arrow/","Windows-cant-Double-Click-jar/","WSL2-Linux-Folder-Empty/","MIUI-Components-Skip-Ads/","Kotlin-TCP-Cilent/","Free-Minecraft-Server-Hosting-Aternos/","Stuck-on-Downloading-IDE/","Root-Xiaomi-12S-Pro/","Aria2-with-WebUI/","STM32-VSCode-with-Keil-Studio/","Disable-Microsoft-Edge--Displeasing-Functions/","Baidupan-Code-Get-Extension/"];function toRandomPost(){
+    pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
+  };

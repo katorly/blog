@@ -1,0 +1,387 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>简单获取小米12S Pro手机 Root权限 | Katorly</title><meta name="author" content="Katorly"><meta name="copyright" content="Katorly"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#18171d"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="简单获取小米12S Pro手机 Root权限"><meta name="application-name" content="简单获取小米12S Pro手机 Root权限"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#18171d"><meta property="og:type" content="article"><meta property="og:title" content="简单获取小米12S Pro手机 Root权限"><meta property="og:url" content="https://blog.katorly.work/Root-Xiaomi-12S-Pro/index.html"><meta property="og:site_name" content="Katorly"><meta property="og:description" content="本文记录最简单的获取安卓手机Root权限的过程，既非线刷，也非深刷。   演示材料：  Windows 11 家庭版 Xiaomi 12S Pro 国行版    大致流程如下：  解锁BootLoader 进入FastBoot，在Recovery分区刷入TWRP 用TWRP侧载Magisk 用Ma"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_modules.jpg"><meta property="article:author" content="Katorly"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_modules.jpg"><meta name="description" content="本文记录最简单的获取安卓手机Root权限的过程，既非线刷，也非深刷。   演示材料：  Windows 11 家庭版 Xiaomi 12S Pro 国行版    大致流程如下：  解锁BootLoader 进入FastBoot，在Recovery分区刷入TWRP 用TWRP侧载Magisk 用Ma"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/katorly/Gallery001/logo/katorly/katorly_large.png"><link rel="canonical" href="https://blog.katorly.work/Root-Xiaomi-12S-Pro/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//static.cloudflareinsights.com"/><meta name="google-site-verification" content="nA7NJh6mcxPMrN7f2CWQFaJSrq700v90FAMbimqU54A"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script defer="defer" data-pjax="data-pjax" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;ba8336ee323d40db909698125bf7cabb&quot;}"></script><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: {"enable":true,"img":"https://upload-bbs.miyoushe.com/upload/2023/09/03/125766904/ee23df8517f3c3e3efc4145658269c06_5714860933110284659.png"},
+  postHeadAiDescription: undefined,
+  diytitle: undefined,
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":2},
+  friends_vue_info: undefined,
+  navMusic: false,
+  mainTone: undefined,
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":true,"limitCount":50,"languages":{"author":"作者: Katorly","link":"链接: ","source":"来源: Katorly","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#61a8fd","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'Katorly',
+  title: '简单获取小米12S Pro手机 Root权限',
+  postAI: '',
+  pageFillDescription: '⚠ 警告, 准备工作, 解锁BootLoader, 刷入TWRP, 侧载Magisk, 用Magisk安装模块本文记录最简单的获取安卓手机权限的过程既非线刷也非深刷演示材料家庭版国行版大致流程如下解锁进入在分区刷入用侧载用安装模块警告刷机有风险若您在刷机过程中出现任何问题与本人无关但是了解以下内容可以尽可能避免手机变砖事先备份手机数据的版本要与机型和安卓系统大版本对应禁止刷入任何文件到分区第一时间安装救砖模块准备工作在电脑下载如下文件尽量不要放在中文路径下进入下载小米解锁工具进入安卓官网下载安卓调试桥已下载并下载了的用户请忽略这一步下载电脑驱动进入小米合集下载对应的小米对应非版文件为文件在下载安装包可选进入等网站下载手机当前系统镜像文件以供出错时刷回原系统备用解锁小米手机系统安装的是而不是只要不没事乱更新的话因此可以使用旧方法解锁在手机上登录小米账号后进入开发者模式找到设备解锁状态点击绑定账号和设备等待小时即天后备份手机所有数据除设置外因为多人反馈恢复手机设置的备份会导致手机后续占用高拷贝到电脑上手机关机先按住手机音量减键不放再按住手机电源键直到手机进入模式屏幕上显示淡橙色字样使用数据线推荐使用原装线连接电脑打开下载好的小米解锁工具登录相同小米账号执行解锁至此手机的已解锁手机也会恢复出厂可导入之前的备份恢复之后每次开机启动画面的屏幕上方会多出一个锁已解开的图标刷入的作用相当于系统上的电脑解压下载好的安卓调试桥并配置好环境变量打开电脑终端输入若正常返回指令帮助则表明配置成功在电脑上安装用于电脑驱动识别手机电脑下载的文件解压将镜像文件文件拷贝到电脑文件夹内手机进入模式方法见本文解锁部分通过数据线连接电脑在电脑文件夹内空白处按住键盘键不放然后鼠标右键点击右键菜单中的在此处打开窗口在中执行文件的名称其中文件的名称换成在第步拷入文件夹的文件文件名成功后在中执行以启动手机到以后需要启动到也是这样操作侧载用是为了方便管理权限某些请求的超级用户权限和刷入外部模块在本文刷入的第步后手机就进入到了如果出现询问是否保持系统分区为只读选择保持只读即可若界面不是中文可以点击选择语言更改显示语言若出现需要输入分区密码则输入手机锁屏密码即可若只设置过图案密码而没设置过锁屏密码则长按电源键进入手机系统关闭锁屏密码再重启进入点击主页的高级再点击滑动下方按钮开始图源历史版本在电脑上将文件后缀改为拷贝到电脑文件夹内在电脑中执行文件的名称其中文件的名称换成在第步拷入文件夹的文件文件名在中执行重启手机进入系统用安装模块安装模块也叫刷入模块正常进入手机系统后找到点击进入如果提示需要下载完整版才能使用则点击取消从电脑拷贝的文件到手机里面再在手机里点击该进行的安装升级进入后如果提示需要修补文件点击直接安装推荐然后点开始修补完后根据提示重启手机重启手机后再进入点击模块然后点击从本地安装即可安装依赖于的模块需要事先将模块文件拷入手机至此手机的权限已经获取到推荐安装以下模块救砖模块防止在安装了不兼容的模块或冻结了关键应用而导致手机无法启动用于挂载需要先在设置中启用并重启自以来被取消如果需要隐藏系统环境则需要借助外部模块对某些需要隐藏系统环境的情形使用支付软件国内银行软件高反作弊的游戏等需要先在设置中启用并重启',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-03-06 21:49:38',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.0.0"><link rel="alternate" href="/atom.xml" title="Katorly" type="application/atom+xml">
+</head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">Katorly</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><span> 探索</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/archives/"><span> 归档</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/categories/"><span> 分类</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" target="_blank" rel="noopener" href="https://i.katorly.work"><span> 关于</span></a></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/03/"><span class="card-archive-list-date">三月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">十二月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span class="card-archive-list-date">七月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">五月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/Android/" itemprop="url">Android</a></span></div></div><h1 class="post-title" itemprop="name headline">简单获取小米12S Pro手机 Root权限</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="post-meta-icon anzhiyufont anzhiyu-icon-calendar-days"></i><span class="post-meta-label">发表于</span><time itemprop="dateCreated datePublished" datetime="2024-01-16T06:33:47.000Z" title="发表于 2024-01-16 14:33:47">2024-01-16</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">1.4k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>4分钟</span></span></div></div></div><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_modules.jpg"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="https://blog.katorly.work/Root-Xiaomi-12S-Pro/"><header><a class="post-meta-categories" href="/categories/Android/" itemprop="url">Android</a><h1 id="CrawlerTitle" itemprop="name headline">简单获取小米12S Pro手机 Root权限</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">Katorly</span><time itemprop="dateCreated datePublished" datetime="2024-01-16T06:33:47.000Z" title="undefined 2024-01-16 14:33:47">2024-01-16</time></header><blockquote>
+<p>本文记录最简单的获取安卓手机Root权限的过程，既非线刷，也非深刷。</p>
+</blockquote>
+<blockquote>
+<p>演示材料：</p>
+<ul>
+<li>Windows 11 家庭版</li>
+<li>Xiaomi 12S Pro 国行版</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>大致流程如下：</p>
+<ol>
+<li>解锁BootLoader</li>
+<li>进入FastBoot，在Recovery分区刷入TWRP</li>
+<li>用TWRP侧载Magisk</li>
+<li>用Magisk安装模块</li>
+</ol>
+</blockquote>
+<h2 id="⚠-警告"><a href="#⚠-警告" class="headerlink" title="⚠ 警告"></a>⚠ 警告</h2><p>刷机有风险，若您在刷机过程中出现任何问题与本人无关。  </p>
+<p>但是，了解以下内容可以尽可能避免手机变砖：</p>
+<ul>
+<li>事先备份手机数据</li>
+<li>TWRP的版本要与机型和安卓系统大版本对应</li>
+<li>禁止刷入任何.img文件到BOOT分区</li>
+<li>Magisk第一时间安装救砖模块</li>
+</ul>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>在电脑下载如下文件（尽量不要放在中文路径下）：  </p>
+<ol>
+<li>进入<a target="_blank" rel="noopener" href="http://www.miui.com/unlock">www.miui.com/unlock</a>下载小米BootLoader解锁工具（MIFlash Unlock）</li>
+<li>进入<a target="_blank" rel="noopener" href="https://developer.android.google.cn/tools/releases/platform-tools">安卓ADB官网</a>下载安卓调试桥（ADB）（已下载Android Studio并下载了Android SDK的用户请忽略这一步）</li>
+<li>下载<a target="_blank" rel="noopener" href="https://adb.clockworkmod.com/">Universal ADB Driver</a>（电脑ADB驱动）</li>
+<li>进入<a target="_blank" rel="noopener" href="https://www.123pan.com/s/qHhDVv-nuQJv">小米TWRP合集</a>下载对应的TWRP（小米12S Pro对应A13，非FBEv2版）（文件为.img文件）</li>
+<li>在<a target="_blank" rel="noopener" href="https://github.com/topjohnwu/Magisk/releases">Github</a>下载Magisk安装包</li>
+</ol>
+<p><strong>[可选]</strong> 进入<a target="_blank" rel="noopener" href="https://miuirom.org/">MIUIROM</a>等网站下载手机当前MIUI系统镜像文件，以供出错时刷回原系统备用</p>
+<h2 id="解锁BootLoader"><a href="#解锁BootLoader" class="headerlink" title="解锁BootLoader"></a>解锁BootLoader</h2><p>小米12S Pro手机系统安装的是MIUI而不是HyperOS（只要不没事乱更新的话），因此可以使用“旧方法”解锁：  </p>
+<ol>
+<li>在手机上登录小米账号后，进入开发者模式，找到“设备解锁状态”，点击“绑定账号和设备”；<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_blunlock_1.jpg"></li>
+<li>等待168小时（即7天）后，备份手机所有数据（除“设置”外，因为多人反馈恢复手机“设置”的备份会导致手机后续占用高），拷贝到电脑上；</li>
+<li>手机关机，先按住手机音量减键不放，再按住手机电源键，直到手机进入FastBoot模式（屏幕上显示淡橙色“FastBoot”字样），使用数据线（推荐使用原装线）连接电脑，打开下载好的小米BootLoader解锁工具，登录相同小米账号，执行解锁。</li>
+</ol>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_blunlock_2.png">  </p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_blunlock_3.png">  </p>
+<p>至此，手机的BootLoader已解锁，手机也会恢复出厂（可导入之前的备份恢复），之后每次开机启动画面的屏幕上方会多出一个“锁已解开”的图标。</p>
+<h2 id="刷入TWRP"><a href="#刷入TWRP" class="headerlink" title="刷入TWRP"></a>刷入TWRP</h2><p>TWRP的作用相当于Windows系统上的Windows PE。  </p>
+<ol>
+<li>电脑解压下载好的安卓调试桥（ADB），并配置好ADB环境变量，打开电脑终端输入<code>adb</code>，若正常返回ADB指令帮助则表明配置成功；<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_adb_1.png">  </li>
+<li>在电脑上安装Universal ADB Driver，用于电脑驱动识别手机FastBoot；</li>
+</ol>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_adb_driver_1.png"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_adb_driver_2.png"><br>3. 电脑下载的TWRP（.zip文件）解压，将TWRP镜像文件（.img文件）拷贝到电脑ADB文件夹内；<br>4. 手机进入FastBoot模式（方法见本文“解锁BootLoader”部分），通过数据线连接电脑；<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_adb_2.png"><br>5. 在电脑ADB文件夹内空白处按住键盘<code>Shift</code>键不放，然后鼠标右键，点击右键菜单中的“在此处打开PowerShell窗口”；<br>6. 在PowerShell中执行<code>fastboot flash recovery TWRP文件的名称.img</code>，其中<code>TWRP文件的名称.img</code>换成在第3步拷入ADB文件夹的.img文件文件名；<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_rec_1.png"><br>7. 成功后，在PowerShell中执行<code>fastboot reboot recovery</code>以启动手机到TWRP（以后需要启动到TWRP也是这样操作）。<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_rec_2.png">  </p>
+<h2 id="侧载Magisk"><a href="#侧载Magisk" class="headerlink" title="侧载Magisk"></a>侧载Magisk</h2><p>用Magisk是为了方便管理Root权限（某些APP请求的“超级用户”权限）和刷入外部模块。  </p>
+<ol>
+<li>在本文“刷入TWRP”的第7步后，手机就进入到TWRP了。如果出现询问“是否保持系统分区为只读”，选择“保持只读”即可；若界面不是中文，可以点击“选择语言”更改TWRP显示语言；若出现需要输入“data分区密码”，则输入手机锁屏密码即可（若只设置过图案密码而没设置过锁屏密码，则长按电源键进入手机系统关闭锁屏密码，再重启进入TWRP）；<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_sideload_magisk_1.png"></li>
+<li>点击TWRP主页的“高级”，再点击“ADB Sideload”，滑动下方按钮开始Sideload；<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_sideload_magisk_2.png"><br><em>图源: <a target="_blank" rel="noopener" href="https://miuiver.com/install-magisk-via-twrp">MIUI历史版本</a></em></li>
+<li>在电脑上将Magisk文件后缀<code>.apk</code>改为<code>.zip</code>，拷贝到电脑ADB文件夹内；<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_sideload_magisk_3.png"></li>
+<li>在电脑PowerShell中执行<code>adb sideload Magisk文件的名称.zip</code>，其中<code>Magisk文件的名称.zip</code>换成在第3步拷入ADB文件夹的.zip文件文件名；<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_sideload_magisk_4.png"></li>
+<li>在PowerShell中执行<code>adb reboot</code>，重启手机，进入系统。</li>
+</ol>
+<h2 id="用Magisk安装模块"><a href="#用Magisk安装模块" class="headerlink" title="用Magisk安装模块"></a>用Magisk安装模块</h2><p>安装模块，也叫刷入模块。  </p>
+<ol>
+<li>正常进入手机系统后，找到Magisk，点击进入。如果提示需要下载完整版Magisk才能使用，则点击“取消”，从电脑拷贝Magisk的<code>.apk</code>文件到手机里面，再在手机里点击该apk进行Magisk的安装（升级）；</li>
+<li>进入Magisk后，如果提示需要修补文件，点击“直接安装（推荐）”，然后点“开始”，修补完后根据提示重启手机；<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_init.jpg">  </li>
+<li>重启手机后，再进入Magisk，点击“模块”，然后点击“从本地安装”即可安装依赖于Magisk的模块（需要事先将模块<code>.zip</code>文件拷入手机）。</li>
+</ol>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_modules.jpg"><br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_install_module.jpg">  </p>
+<p>至此，手机的Root权限已经获取到。  </p>
+<p>推荐安装以下模块：</p>
+<ul>
+<li>救砖模块（防止在Magisk安装了不兼容的模块或冻结了关键应用而导致手机无法启动）</li>
+<li>LSPosed（用于挂载Xposed）（需要先在Magisk设置中启用Zygisk并重启）</li>
+<li>Shamiko（自Magisk v24以来，Magisk Hide被取消，如果需要隐藏系统Root环境，则需要借助外部模块）（对某些APP需要隐藏系统Root环境的情形：使用支付软件、国内银行软件、高反作弊的游戏等）（需要先在Magisk设置中启用Zygisk并重启）<br><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_hideroot.jpg"></li>
+</ul>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/logo/katorly/katorly_white.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/logo/katorly/katorly_white.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">Katorly</div><div class="post-copyright__author_desc">个人博客</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://blog.katorly.work/Root-Xiaomi-12S-Pro/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://blog.katorly.work/Root-Xiaomi-12S-Pro/')">简单获取小米12S Pro手机 Root权限</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://blog.katorly.work/Root-Xiaomi-12S-Pro/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.katorly.work" target="_blank">Katorly</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/Stuck-on-Downloading-IDE/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/jetbrains/gateway/stuck_on_downloading_ide_1.png" onerror="onerror=null;src='https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">JetBrains Gateway 连接 WSL 卡在下载IDE的解决办法</div></div></a></div><div class="next-post pull-right"><a href="/Aria2-with-WebUI/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_webui.png" onerror="onerror=null;src='https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Aria2 纯小白教程</div></div></a></div></nav><div id="comments" style="margin-top: 35px"><script>function loadUtterances() {
+  var script = document.createElement('script');
+  script.src = "https://utteranc.es/client.js";
+  script.setAttribute('repo', 'katorly/blog');
+  script.setAttribute('issue-term', 'pathname');
+  script.setAttribute('label', 'Comments');
+  script.setAttribute('theme', 'preferred-color-scheme');
+  script.setAttribute('crossorigin', 'anonymous');
+  script.setAttribute('async', 'true');
+  document.getElementById('comments').appendChild(script);
+}
+
+if (document.readyState === 'complete' || document.readyState === 'interactive') {
+  loadUtterances();
+} else {
+  document.addEventListener('DOMContentLoaded', loadUtterances);
+}</script></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/logo/katorly/katorly_white.png" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/NoImage.PNG'" alt="avatar"/></div><div class="author-info__description">感谢您的来访!</div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">Katorly</h1><div class="author-info__desc">个人博客</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/katorly" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a><a class="social-icon faa-parent animated-hover" href="mailto:katorly@qq.com" target="_blank" title="Email"><i class="anzhiyufont anzhiyu-icon-envelope"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E2%9A%A0-%E8%AD%A6%E5%91%8A"><span class="toc-number">1.</span> <span class="toc-text">⚠ 警告</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">2.</span> <span class="toc-text">准备工作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A7%A3%E9%94%81BootLoader"><span class="toc-number">3.</span> <span class="toc-text">解锁BootLoader</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%B7%E5%85%A5TWRP"><span class="toc-number">4.</span> <span class="toc-text">刷入TWRP</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BE%A7%E8%BD%BDMagisk"><span class="toc-number">5.</span> <span class="toc-text">侧载Magisk</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%A8Magisk%E5%AE%89%E8%A3%85%E6%A8%A1%E5%9D%97"><span class="toc-number">6.</span> <span class="toc-text">用Magisk安装模块</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/Baidupan-Code-Get-Extension/" title="百度网盘提取码获取 - 爱搜资源助手浏览器扩展"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/爱搜资源助手_3.png" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png'" alt="百度网盘提取码获取 - 爱搜资源助手浏览器扩展"/></a><div class="content"><a class="title" href="/Baidupan-Code-Get-Extension/" title="百度网盘提取码获取 - 爱搜资源助手浏览器扩展">百度网盘提取码获取 - 爱搜资源助手浏览器扩展</a><time datetime="2024-03-06T13:40:37.000Z" title="发表于 2024-03-06 21:40:37">2024-03-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/Disable-Microsoft-Edge--Displeasing-Functions/" title="关闭Edge的大声朗读按钮和侧边栏按钮"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/close_ms_edge_functions_2.png" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png'" alt="关闭Edge的大声朗读按钮和侧边栏按钮"/></a><div class="content"><a class="title" href="/Disable-Microsoft-Edge--Displeasing-Functions/" title="关闭Edge的大声朗读按钮和侧边栏按钮">关闭Edge的大声朗读按钮和侧边栏按钮</a><time datetime="2024-02-20T05:40:32.000Z" title="发表于 2024-02-20 13:40:32">2024-02-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/STM32-VSCode-with-Keil-Studio/" title="告别uVision——使用Keil Studio在VSCode中进行STM32的开发"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_mdk_6_website.png" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png'" alt="告别uVision——使用Keil Studio在VSCode中进行STM32的开发"/></a><div class="content"><a class="title" href="/STM32-VSCode-with-Keil-Studio/" title="告别uVision——使用Keil Studio在VSCode中进行STM32的开发">告别uVision——使用Keil Studio在VSCode中进行STM32的开发</a><time datetime="2024-01-30T09:25:56.000Z" title="发表于 2024-01-30 17:25:56">2024-01-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/Aria2-with-WebUI/" title="Aria2 纯小白教程"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_webui.png" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png'" alt="Aria2 纯小白教程"/></a><div class="content"><a class="title" href="/Aria2-with-WebUI/" title="Aria2 纯小白教程">Aria2 纯小白教程</a><time datetime="2024-01-28T04:31:29.000Z" title="发表于 2024-01-28 12:31:29">2024-01-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/Root-Xiaomi-12S-Pro/" title="简单获取小米12S Pro手机 Root权限"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png&quot;" data-lazy-src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_modules.jpg" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/katorly/Gallery001/demo/BlankDark.png'" alt="简单获取小米12S Pro手机 Root权限"/></a><div class="content"><a class="title" href="/Root-Xiaomi-12S-Pro/" title="简单获取小米12S Pro手机 Root权限">简单获取小米12S Pro手机 Root权限</a><time datetime="2024-01-16T06:33:47.000Z" title="发表于 2024-01-16 14:33:47">2024-01-16</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2018 - 2024 By <a class="footer-bar-link" href="/" title="Katorly" target="_blank">Katorly</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">24</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">11</div></a></div><div class="back-menu-list-groups"></div><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><span> 探索</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/archives/"><span> 归档</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/categories/"><span> 分类</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" target="_blank" rel="noopener" href="https://i.katorly.work"><span> 关于</span></a></div></div></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.cbd.int/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script async src="/anzhiyu/random.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.cbd.int/mathjax@3.2.2/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>

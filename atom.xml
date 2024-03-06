@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Katorly</title>
+  
+  <subtitle>个人博客</subtitle>
+  <link href="https://blog.katorly.work/atom.xml" rel="self"/>
+  
+  <link href="https://blog.katorly.work/"/>
+  <updated>2024-03-06T13:49:38.000Z</updated>
+  <id>https://blog.katorly.work/</id>
+  
+  <author>
+    <name>Katorly</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>百度网盘提取码获取 - 爱搜资源助手浏览器扩展</title>
+    <link href="https://blog.katorly.work/Baidupan-Code-Get-Extension/"/>
+    <id>https://blog.katorly.work/Baidupan-Code-Get-Extension/</id>
+    <published>2024-03-06T13:40:37.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>简单分享个浏览器扩展，我已经用了3年了。  </p><p>拿到百度网盘资源分享链接却不知道提取码？如果该链接较为流行，这个扩展可以直接为你找到提取码。  </p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>官网链接：<a href="http://www.aisouziyuan.com/">www.aisouziyuan.com</a><br>扩展页面：<a href="https://chromewebstore.google.com/detail/%E7%88%B1%E6%90%9C%E8%B5%84%E6%BA%90%E5%8A%A9%E6%89%8B/mbklgpngoohbbagagdfoccaclpdhgihd">chrome应用商店</a><br>备份下载：<a href="https://pan.baidu.com/s/1eyLe-C2GaqtgDy9qbE0Taw?pwd=coco">百度网盘</a><br>（目前仅在Google Chrome扩展商店上架，Edge用户可访问其谷歌扩展页面进行安装）  </p><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><h3 id="搜索提取码"><a href="#搜索提取码" class="headerlink" title="搜索提取码"></a>搜索提取码</h3><p>如果你访问的百度网盘链接有人分享过提取码，它就可以自动帮你找到并填充，你不需要知道该链接的提取码。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/%E7%88%B1%E6%90%9C%E8%B5%84%E6%BA%90%E5%8A%A9%E6%89%8B_1.png" alt="功能1_寻找提取码">  </p><h3 id="检查链接是否有效"><a href="#检查链接是否有效" class="headerlink" title="检查链接是否有效"></a>检查链接是否有效</h3><p>在还没有点进百度网盘链接的时候就可以检查该分享是否还可用。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/%E7%88%B1%E6%90%9C%E8%B5%84%E6%BA%90%E5%8A%A9%E6%89%8B_2.png" alt="功能2_检测链接有效状态">  </p><h3 id="寻找资源（已失效）"><a href="#寻找资源（已失效）" class="headerlink" title="寻找资源（已失效）"></a>寻找资源（已失效）</h3><p>点开扩展，里面有个搜索框，可以搜索他人分享了提取码的百度网盘资源（目前该功能已失效）。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/%E7%88%B1%E6%90%9C%E8%B5%84%E6%BA%90%E5%8A%A9%E6%89%8B_3.png" alt="爱搜资源助手">  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/%E7%88%B1%E6%90%9C%E8%B5%84%E6%BA%90%E5%8A%A9%E6%89%8B_4.png" alt="功能3_寻找资源_已失效">  </p><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><p>如果你拥有一个分享链接和它的提取码，在填入提取码的时候勾选“资源分享”即可将链接和对应的提取码上传至爱搜资源助手自己的服务器中，下次他人访问该分享链接时爱搜资源助手即可自动搜索提取码并填充。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/%E7%88%B1%E6%90%9C%E8%B5%84%E6%BA%90%E5%8A%A9%E6%89%8B_5.png" alt="资源分享|588x444">  </p><p>所以，如果遇到可以公开的好资源，要乐于分享提取码哦！  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;简单分享个浏览器扩展，我已经用了3年了。  &lt;/p&gt;
+&lt;p&gt;拿到百度网盘资源分享链接却不知道提取码？如果该链接较为流行，这个扩展可以直接为你找到提取码。  &lt;/p&gt;
+&lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载</summary>
+      
+    
+    
+    
+    <category term="Uncategorized" scheme="https://blog.katorly.work/categories/Uncategorized/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关闭Edge的大声朗读按钮和侧边栏按钮</title>
+    <link href="https://blog.katorly.work/Disable-Microsoft-Edge--Displeasing-Functions/"/>
+    <id>https://blog.katorly.work/Disable-Microsoft-Edge--Displeasing-Functions/</id>
+    <published>2024-02-20T05:40:32.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>演示环境: Microsoft Edge 120.0.2210.133 on Windows 11</p></blockquote><p>对于不需要的人来说，Microsoft Edge浏览器里有些功能极其反人类，还不给关闭，并且反馈到官方居然回复说“暂不支持关闭此功能”。  </p><p>本教程将教会您如何关闭那些设置里没有而您又想关闭的功能。  </p><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><ol><li>按下<code>Win+R</code>键，输入<code>regedit</code>，打开注册表编辑器。</li><li>打开<code>计算机\HKEY_CURRENT_USER\Software\Policies\Microsoft\</code>，在<code>\Microsoft\</code>文件夹中新建<code>项</code>，命名为<code>Edge</code>。</li><li>之后，在<code>计算机\HKEY_CURRENT_USER\Software\Policies\Microsoft\Edge</code>中新建<code>DWORD (32位)值(D)</code>，输入<code>HubsSidebarEnabled</code>，这个是用来禁用Edge顶部工具栏中的“侧边栏”图标显示的，实际上会禁用整个侧边栏；</li><li>再新建一个<code>DWORD (32位)值(D)</code>，输入<code>ReadAloudEnabled</code>，这个是用来禁用Edge顶部地址栏中的“大声朗读”图标的，实际上会禁用整个大声朗读功能。</li></ol><p>注意，新建的两个DWORD值应确保为<code>0</code>。  </p><p>完成后，注册表应该长这样：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/close_ms_edge_functions_1.png">  </p><h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><p>打开<a href="edge://policy">edge:&#x2F;&#x2F;policy</a>，点击<code>重新加载策略</code>按钮，至此，就可以看到大声朗读和侧边栏按钮都消失了。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/close_ms_edge_functions_2.png">  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/close_ms_edge_functions_3.png">  </p><p>事实上，在这个页面勾选<code>显示没有值的策略</code>，可以看到其它可供设置的值，用于修改Edge里其它不想要的功能。只需按照上面改注册表的方法操作即可设置这些值。  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;演示环境: Microsoft Edge 120.0.2210.133 on Windows 11&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;对于不需要的人来说，Microsoft Edge浏览器里有些功能极其反人类，还不给关闭，并且反馈到官方居然</summary>
+      
+    
+    
+    
+    <category term="Windows" scheme="https://blog.katorly.work/categories/Windows/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>告别uVision——使用Keil Studio在VSCode中进行STM32的开发</title>
+    <link href="https://blog.katorly.work/STM32-VSCode-with-Keil-Studio/"/>
+    <id>https://blog.katorly.work/STM32-VSCode-with-Keil-Studio/</id>
+    <published>2024-01-30T09:25:56.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>教程懒得看？这里有配置好的项目工程文件，可以直接在vscode中打开来用：<a href="https://github.com/katorlys/STM32F103C8T6-VSCode">https://github.com/katorlys/STM32F103C8T6-VSCode</a></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_mdk_6_website.png">  </p><p>随着Keil MDK 6的发布，Keil Studio出现在大众视野中。Keil Studio for VS Code是一个包含了多款vscode插件的插件包，将嵌入式开发整合到广泛使用的vscode中，不再需要安装一个额外的IDE，易于云端开发、多人协作、配置更方便、项目更加轻量化。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/arm_announces_keil_mdk_6.png"><br>(图源: <a href="https://www.keil.com/pr/article/1302.htm">Arm announces Keil MDK Version 6</a>)  </p><p>使用Keil Studio初始化一个项目非常简单。本教程将带您一起从头开始在vscode上配置Keil Studio，以在vscode上使用标准库进行STM32F103C8T6的开发。  </p><blockquote><p>材料准备  </p><ol><li>符合VSCode安装要求的电脑</li><li>VSCode<strong>最新版</strong></li><li><a href="https://os.mbed.com/teams/ST/wiki/ST-Link-Driver">ST-Link驱动</a></li></ol></blockquote><blockquote><p>注: 阅读本文，需要您具备VSCode的基本使用方法。您并不需要知道任何与CMake相关的知识。</p></blockquote><h2 id="新建Solution"><a href="#新建Solution" class="headerlink" title="新建Solution"></a>新建Solution</h2><p>“Solution”即“解决方案”的意思，可以根据需求把多个程序项目放在一个解决方案内。创建解决方案就相当于创建一个大的项目。  </p><ol><li><p>搜索<code>Keil Studio</code>，安装<code>Arm Keil Studio Pack</code>。首次安装完成后vscode右下角会有通知，需要“激活社区版”，这是完全免费的（不过<a href="https://developer.arm.com/Tools%20and%20Software/Keil%20MDK#Editions">不能拿来商用</a>），点击通知里的“激活”即可。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_1.png">  </p></li><li><p>在侧栏中找到<code>CMSIS</code>，在<code>SOLUTION</code>中点击<code>Create a New Solution</code>，再选择STM32F103C8T6芯片。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_2.png">  </p></li><li><p>给解决方案起个名字，并选择路径，直接把这个路径作为整个项目的路径即可（即一个解决方案作为为一个大项目）。<strong>路径不能有中文！！！</strong><br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_3.png">  </p></li><li><p>当你看到这个弹窗的时候，就表明所需的环境包下载完整、解决方案创建成功了。点击<code>Open</code>。如果没有创建成功或报错，请移步本文最后一个部分“疑难解答”。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_4.png">  </p></li><li><p>在<code>CMSIS</code>中的<code>ACTIONS</code>处点击<code>Build</code>，看看是否能构建成功，如果不能，请移步本文最后一个部分“疑难解答”。。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_5.png"></p></li></ol><p>完成以上步骤后，解决方案里的项目文件应该是这样的：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_6.png">  </p><h2 id="配置标准库"><a href="#配置标准库" class="headerlink" title="配置标准库"></a>配置标准库</h2><p>本质上，你只需要在Keil Studio的Software Components里面搜索并勾选想要使用的依赖库，构建时Keil Studio会自动下载库、生成CMake文件等。</p><ol><li><p>在侧栏<code>CMSIS</code>中的<code>SOLUTION</code>处找到<code>Manage Software Components</code>（这个和Keil uVision的Pack Installer其实是一个东西），在搜索框中输入想要安装的组件名称，点击组件名前的复选框即可安装该组件（原理：会把该组件的“包名”添加到你项目的<code>Project.cproject.yml</code>文件中）。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_7.png">  </p></li><li><p>在<code>ACTIONS</code>处点击<code>Build</code>，查看是否能构建成功，如果不能，请移步本文最后一个部分“疑难解答”。</p></li></ol><p>如果要像在Keil uVision里的那样一下子把整个标准库都放入项目中，那么直接在Software Components里面搜索<code>stdperiph</code>并把上图中的<code>StdPeriph Drivers</code>全选即可。如果在构建使用标准库的项目时出现“no member named ‘IP’”报错，请移步本文最后一个部分“疑难解答”。  </p><h2 id="下载与调试"><a href="#下载与调试" class="headerlink" title="下载与调试"></a>下载与调试</h2><p>本教程使用ST-Link V2下载器。请先确保您的电脑上安装了<a href="https://os.mbed.com/teams/ST/wiki/ST-Link-Driver">相关驱动</a>。</p><ol><li><p>连接好STM32F103C8T6，直接将ST-Link与电脑连接，会看到vscode右下角通知：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_8.png">  </p></li><li><p>点击<code>OK</code>，会让你给这个ST-Link命名（仅显示在vscode上），并选择芯片型号。如果错过了这个通知或者没选到，在侧栏中找到<code>Device Manager</code>并通过如图所示的位置进入编辑即可。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_9.png">  </p></li><li><p>在侧栏<code>CMSIS</code>的<code>ACTIONS</code>处点击<code>Run</code>，待终端显示<code>Flash succeeded</code>即程序下载成功。<strong>请确保在下载之前至少构建过一次，Keil Studio不会在下载的时候帮你构建！</strong><br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_10.png">  </p></li><li><p>点击<code>Debug</code>，可以跟Keil uVision一样调试。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_11.png"></p></li></ol><h2 id="打开已有项目"><a href="#打开已有项目" class="headerlink" title="打开已有项目"></a>打开已有项目</h2><p>新建完解决方案，并配置好项目后，以后直接打开解决方案文件夹即可。例如，我把解决方案文件夹路径设为了<code>Project_Keil/stm32f103c8t6 solution</code>，则下次打开项目的时候直接打开<code>stm32f103c8t6 solution</code>文件夹即可。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_12.png">  </p><p>如果重新打开解决方案后无法构建，请移步本文最后一个部分“疑难解答”。</p><h2 id="疑难解答"><a href="#疑难解答" class="headerlink" title="疑难解答"></a>疑难解答</h2><h3 id="创建解决方案时报错或解决方案创建完成后构建报错"><a href="#创建解决方案时报错或解决方案创建完成后构建报错" class="headerlink" title="创建解决方案时报错或解决方案创建完成后构建报错"></a>创建解决方案时报错或解决方案创建完成后构建报错</h3><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_%E9%97%AE%E9%A2%983_1.png">  </p><p>把VSCode更新至最新版本即可。  </p><p>若还是不行，请关闭杀毒软件，查看是否是因为杀毒软件把Arm Keil Studio Pack里的插件和他们下载的东西识别为病毒导致的（例如，Kaspersky有可能把csolution.exe识别为病毒而直接删除该文件）  </p><h3 id="安装了Std-Periph-Driver中的Framework，misc-c报错"><a href="#安装了Std-Periph-Driver中的Framework，misc-c报错" class="headerlink" title="安装了Std Periph Driver中的Framework，misc.c报错"></a>安装了Std Periph Driver中的Framework，misc.c报错</h3><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_%E9%97%AE%E9%A2%981_1.png">  </p><p>经过对比发现，解决方案生成的的<code>core_cm3.h</code>启动文件中<code>IP</code>写作<code>IPR</code>，要解决<code>misc.c</code>中的<code>IP</code>字段不存在的问题，只需把<code>misc.c</code>中此处的<code>IP</code>改为<code>IPR</code>即可。</p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_%E9%97%AE%E9%A2%981_2.png">  </p><h3 id="重新打开项目-解决方案后无法构建"><a href="#重新打开项目-解决方案后无法构建" class="headerlink" title="重新打开项目&#x2F;解决方案后无法构建"></a>重新打开项目&#x2F;解决方案后无法构建</h3><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_%E9%97%AE%E9%A2%982_1.png">  </p><p>CMake缓存搞的。在<code>CMSIS</code>中的<code>ACTIONS</code>处点击<code>Build</code>的下拉按钮（按钮内的一个小三角），点击<code>Build (clean)</code>即可清除缓存并构建。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/embedded/vscode/keil_stm32_vscode_%E9%97%AE%E9%A2%982_2.png">  </p><h3 id="其它问题"><a href="#其它问题" class="headerlink" title="其它问题"></a>其它问题</h3><p>Keil MDK 6是最近几个月才发布的，尽管已经最大程度地简化了从0开始配置环境的复杂度，但配置起来可能并不顺手。  </p><p>奉上在vscode中配置好的STM32F103C8T6标准库项目工程模板，供您参考：<a href="https://github.com/katorlys/STM32F103C8T6-VSCode">https://github.com/katorlys/STM32F103C8T6-VSCode</a>  </p><p>若您在配置环境的过程中有任何其它问题，欢迎在下方评论区提出，期待与您共同进步！  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;教程懒得看？这里有配置好的项目工程文件，可以直接在vscode中打开来用：&lt;a href=&quot;https://github.com/katorlys/STM32F103C8T6-VSCode&quot;&gt;https://github.com/katorlys/</summary>
+      
+    
+    
+    
+    <category term="Embedded" scheme="https://blog.katorly.work/categories/Embedded/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Aria2 纯小白教程</title>
+    <link href="https://blog.katorly.work/Aria2-with-WebUI/"/>
+    <id>https://blog.katorly.work/Aria2-with-WebUI/</id>
+    <published>2024-01-28T04:31:29.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文仅限Windows操作系统.</p></blockquote><p>Aria2是一款免费的下载器，作用类似于Internet Download Manager，但与其不同的特点之一是Aria2可以下载BT磁力链接。  </p><p>在某些下载链接解析站可以看到“发送Aria2”的字样，这个就是直接发送到你本地运行的Aria2以开始下载的意思：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_example_aria2.png">  </p><p>都找到下载链接解析站了，就不用我说为什么要用下载器了吧 XD  </p><h2 id="下载Aria2"><a href="#下载Aria2" class="headerlink" title="下载Aria2"></a>下载Aria2</h2><p>直接从<a href="https://aria2c.com/usage.html">Aria2 &amp; YAAW 使用说明</a>的<a href="https://aria2c.com/usage.html#:~:text=metadata%3Dtrue-,Aria2%20%E7%9B%B8%E5%85%B3%E4%B8%8B%E8%BD%BD,-Aria2%20%E6%BA%90%E7%A0%81">Aria2 相关下载</a>处下载<a href="https://aria2c.com/archiver/aria2.zip">Windows 懒人包下载</a>，其包含以下文件：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">aria2.conf    # 配置文件 可以自己根据说明修改</span><br><span class="line">aria2.exe     # 启动文件 使用这个来启动 aria2</span><br><span class="line">aria2.session # 任务保存文件 未完成任务会保存在这里</span><br><span class="line">aria2c.exe    # 32位命令行主程序</span><br><span class="line">README.md     # README</span><br><span class="line">Aria2Data     # 下载目录 默认下载文件会保存在这里</span><br></pre></td></tr></table></figure><p>将下载的<code>.zip</code>文件放到合适的位置（例如Program Files里面），解压，会得到如下文件：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_win_package.png">  </p><h2 id="配置Aria2"><a href="#配置Aria2" class="headerlink" title="配置Aria2"></a>配置Aria2</h2><p>推荐修改下面的几个参数，其它的先不用动。  </p><h3 id="下载路径"><a href="#下载路径" class="headerlink" title="下载路径"></a>下载路径</h3><p>打开<code>aria2.conf</code>，将<code>dir</code>改成想把下载文件的路径。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 文件的保存路径(可使用绝对路径或相对路径), 默认: 当前启动位置</span><br><span class="line">dir=downloads</span><br></pre></td></tr></table></figure><p>例如，想要把下载到的文件放在Aria2当前文件夹里的<code>downloads/files</code>文件夹处，则填写<code>downloads/files</code>（相对路径）；想把下载到的文件放在<code>C:/Downloads</code>里面，则填写<code>C:/Downloads</code>（绝对路径）。切勿多加<code>/</code>或其它字符，否则Aria2直接无法启动。  </p><h3 id="最大同时下载任务数"><a href="#最大同时下载任务数" class="headerlink" title="最大同时下载任务数"></a>最大同时下载任务数</h3><p>允许最多多少文件同时进行下载，修改<code>max-concurrent-downloads</code>即可，推荐改成<code>5</code>。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 最大同时下载任务数, 运行时可修改, 默认:5</span><br><span class="line">max-concurrent-downloads=5</span><br></pre></td></tr></table></figure><h3 id="同一服务器连接数"><a href="#同一服务器连接数" class="headerlink" title="同一服务器连接数"></a>同一服务器连接数</h3><p>下载时连接到同一个下载服务器的最大数量，越多越快。修改<code>max-connection-per-server</code>，推荐改成<code>16</code>。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 同一服务器连接数, 添加时可指定, 默认:1</span><br><span class="line">max-connection-per-server=16</span><br></pre></td></tr></table></figure><h3 id="单任务最大线程数"><a href="#单任务最大线程数" class="headerlink" title="单任务最大线程数"></a>单任务最大线程数</h3><p>下载的每个文件在下载时最多可分多少个线程进行下载，多线程下载同一个文件可以提高下载该文件的速度。<br>修改<code>split</code>即可，推荐改成<code>25</code>。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 单个任务最大线程数, 添加时可指定, 默认:5</span><br><span class="line">split=25</span><br></pre></td></tr></table></figure><h3 id="用户代理"><a href="#用户代理" class="headerlink" title="用户代理"></a>用户代理</h3><p>修改<code>user-agent</code>即可。当你通过某些解析链接下载时，解析站可能会告诉你“用户UA”，把<code>user-agent</code>设置成它给的UA之后再启动Aria2即可。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">user-agent=xxx</span><br></pre></td></tr></table></figure><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_example_useragent.png">  </p><h2 id="下载WebUI-Aria2"><a href="#下载WebUI-Aria2" class="headerlink" title="下载WebUI-Aria2"></a>下载WebUI-Aria2</h2><p>Aria2是没有图形界面的，运行之后直接在系统后台里。  </p><p>为了更好地管理下载项目和查看速度及实时修改设置等，推荐下载一个专门为其打造的UI界面。这里推荐<a href="https://github.com/ziahamza/webui-aria2">WebUI-Aria2</a>或<a href="https://github.com/mayswind/AriaNg">Aria2Ng</a>，是网页，直接启动非常方便。  </p><p>此处使用WebUI-Aria2，直接下载<a href="https://github.com/ziahamza/webui-aria2/archive/master.zip">整个master主分支</a>，解压并放在合适的位置。不想下载也行，要用的时候直接打开WebUI作者托管在Github上的页面即可。  </p><h2 id="启动Aria2"><a href="#启动Aria2" class="headerlink" title="启动Aria2"></a>启动Aria2</h2><p>点击<code>aria2.exe</code>（注意不是<code>aria2c.exe</code>），如下图标所示，即可启动Aria2。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_exe_icon.png">  </p><p>一般显示这个通知即启动成功：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_exe_launched.png">  </p><p>若出现这个窗口，也代表启动成功；右上角关闭则会直接关闭Aria2。Aria2启动后会显示在系统托盘图标里，找到它并右键可以选择显示或隐藏这个窗口，还可以选择退出（关闭Aria2）。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_exe_console.png">  </p><h2 id="在WebUI-Aria2中使用Aria2"><a href="#在WebUI-Aria2中使用Aria2" class="headerlink" title="在WebUI-Aria2中使用Aria2"></a>在WebUI-Aria2中使用Aria2</h2><p>启动Aria2后，用以下任一方式打开WebUI-Aria2：</p><ul><li>直接打开<a href="https://ziahamza.github.io/webui-aria2">https://ziahamza.github.io/webui-aria2</a></li><li>打开下载并解压好的WebUI-Aria2仓库文件夹，进入<code>docs</code>文件夹，双击<code>index.html</code></li></ul><p>看到这个页面的时候，WebUI-Aria2就成功连接到Aria2，可以在里面管理下载了：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_webui.png">  </p><p>如果没成功，一般右边会有提示：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_webui_fail.png">  </p><p>没成功可能是因为Aria2没有启动，或者打开RPC服务异常。你可以打开Aria2窗口查看是否有报错。<br>若没有开启RPC服务器，可以把<code>aria2.conf</code>文件中的<code>enable-rpc</code>设置为<code>true</code>，再启动Aria2来打开它。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 启用RPC, 默认:false</span><br><span class="line">enable-rpc=true</span><br></pre></td></tr></table></figure><p>完成后，点击页面导航栏的“添加”，并选择相应的形式，开始下载即可。或者，如果有，在解析站里面直接点击“发送到Aria2”即可开始下载。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_webui_usage.png">  </p><h2 id="在Aria2Ng中使用Aria2"><a href="#在Aria2Ng中使用Aria2" class="headerlink" title="在Aria2Ng中使用Aria2"></a>在Aria2Ng中使用Aria2</h2><p>如果你已经用上了WebUI-Aria2，没必要再用Aria2Ng。  </p><p>这个跟WebUI-Aria2同理的，下载Aria2Ng-AllInOne之后解压并放到合适位置，启动Aria2，再双击Aria2Ng-AllInOne里面的<code>index.html</code>即可：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/download/aria2_aria2ng.png">  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文仅限Windows操作系统.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Aria2是一款免费的下载器，作用类似于Internet Download Manager，但与其不同的特点之一是Aria2可以下载BT磁力链接。  &lt;/p&gt;
+&lt;p&gt;在某些</summary>
+      
+    
+    
+    
+    <category term="Uncategorized" scheme="https://blog.katorly.work/categories/Uncategorized/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>简单获取小米12S Pro手机 Root权限</title>
+    <link href="https://blog.katorly.work/Root-Xiaomi-12S-Pro/"/>
+    <id>https://blog.katorly.work/Root-Xiaomi-12S-Pro/</id>
+    <published>2024-01-16T06:33:47.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文记录最简单的获取安卓手机Root权限的过程，既非线刷，也非深刷。</p></blockquote><blockquote><p>演示材料：</p><ul><li>Windows 11 家庭版</li><li>Xiaomi 12S Pro 国行版</li></ul></blockquote><blockquote><p>大致流程如下：</p><ol><li>解锁BootLoader</li><li>进入FastBoot，在Recovery分区刷入TWRP</li><li>用TWRP侧载Magisk</li><li>用Magisk安装模块</li></ol></blockquote><h2 id="⚠-警告"><a href="#⚠-警告" class="headerlink" title="⚠ 警告"></a>⚠ 警告</h2><p>刷机有风险，若您在刷机过程中出现任何问题与本人无关。  </p><p>但是，了解以下内容可以尽可能避免手机变砖：</p><ul><li>事先备份手机数据</li><li>TWRP的版本要与机型和安卓系统大版本对应</li><li>禁止刷入任何.img文件到BOOT分区</li><li>Magisk第一时间安装救砖模块</li></ul><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>在电脑下载如下文件（尽量不要放在中文路径下）：  </p><ol><li>进入<a href="http://www.miui.com/unlock">www.miui.com/unlock</a>下载小米BootLoader解锁工具（MIFlash Unlock）</li><li>进入<a href="https://developer.android.google.cn/tools/releases/platform-tools">安卓ADB官网</a>下载安卓调试桥（ADB）（已下载Android Studio并下载了Android SDK的用户请忽略这一步）</li><li>下载<a href="https://adb.clockworkmod.com/">Universal ADB Driver</a>（电脑ADB驱动）</li><li>进入<a href="https://www.123pan.com/s/qHhDVv-nuQJv">小米TWRP合集</a>下载对应的TWRP（小米12S Pro对应A13，非FBEv2版）（文件为.img文件）</li><li>在<a href="https://github.com/topjohnwu/Magisk/releases">Github</a>下载Magisk安装包</li></ol><p><strong>[可选]</strong> 进入<a href="https://miuirom.org/">MIUIROM</a>等网站下载手机当前MIUI系统镜像文件，以供出错时刷回原系统备用</p><h2 id="解锁BootLoader"><a href="#解锁BootLoader" class="headerlink" title="解锁BootLoader"></a>解锁BootLoader</h2><p>小米12S Pro手机系统安装的是MIUI而不是HyperOS（只要不没事乱更新的话），因此可以使用“旧方法”解锁：  </p><ol><li>在手机上登录小米账号后，进入开发者模式，找到“设备解锁状态”，点击“绑定账号和设备”；<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_blunlock_1.jpg"></li><li>等待168小时（即7天）后，备份手机所有数据（除“设置”外，因为多人反馈恢复手机“设置”的备份会导致手机后续占用高），拷贝到电脑上；</li><li>手机关机，先按住手机音量减键不放，再按住手机电源键，直到手机进入FastBoot模式（屏幕上显示淡橙色“FastBoot”字样），使用数据线（推荐使用原装线）连接电脑，打开下载好的小米BootLoader解锁工具，登录相同小米账号，执行解锁。</li></ol><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_blunlock_2.png">  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_blunlock_3.png">  </p><p>至此，手机的BootLoader已解锁，手机也会恢复出厂（可导入之前的备份恢复），之后每次开机启动画面的屏幕上方会多出一个“锁已解开”的图标。</p><h2 id="刷入TWRP"><a href="#刷入TWRP" class="headerlink" title="刷入TWRP"></a>刷入TWRP</h2><p>TWRP的作用相当于Windows系统上的Windows PE。  </p><ol><li>电脑解压下载好的安卓调试桥（ADB），并配置好ADB环境变量，打开电脑终端输入<code>adb</code>，若正常返回ADB指令帮助则表明配置成功；<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_adb_1.png">  </li><li>在电脑上安装Universal ADB Driver，用于电脑驱动识别手机FastBoot；</li></ol><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_adb_driver_1.png"><br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_adb_driver_2.png"><br>3. 电脑下载的TWRP（.zip文件）解压，将TWRP镜像文件（.img文件）拷贝到电脑ADB文件夹内；<br>4. 手机进入FastBoot模式（方法见本文“解锁BootLoader”部分），通过数据线连接电脑；<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_adb_2.png"><br>5. 在电脑ADB文件夹内空白处按住键盘<code>Shift</code>键不放，然后鼠标右键，点击右键菜单中的“在此处打开PowerShell窗口”；<br>6. 在PowerShell中执行<code>fastboot flash recovery TWRP文件的名称.img</code>，其中<code>TWRP文件的名称.img</code>换成在第3步拷入ADB文件夹的.img文件文件名；<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_rec_1.png"><br>7. 成功后，在PowerShell中执行<code>fastboot reboot recovery</code>以启动手机到TWRP（以后需要启动到TWRP也是这样操作）。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_rec_2.png">  </p><h2 id="侧载Magisk"><a href="#侧载Magisk" class="headerlink" title="侧载Magisk"></a>侧载Magisk</h2><p>用Magisk是为了方便管理Root权限（某些APP请求的“超级用户”权限）和刷入外部模块。  </p><ol><li>在本文“刷入TWRP”的第7步后，手机就进入到TWRP了。如果出现询问“是否保持系统分区为只读”，选择“保持只读”即可；若界面不是中文，可以点击“选择语言”更改TWRP显示语言；若出现需要输入“data分区密码”，则输入手机锁屏密码即可（若只设置过图案密码而没设置过锁屏密码，则长按电源键进入手机系统关闭锁屏密码，再重启进入TWRP）；<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_sideload_magisk_1.png"></li><li>点击TWRP主页的“高级”，再点击“ADB Sideload”，滑动下方按钮开始Sideload；<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_sideload_magisk_2.png"><br><em>图源: <a href="https://miuiver.com/install-magisk-via-twrp">MIUI历史版本</a></em></li><li>在电脑上将Magisk文件后缀<code>.apk</code>改为<code>.zip</code>，拷贝到电脑ADB文件夹内；<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_sideload_magisk_3.png"></li><li>在电脑PowerShell中执行<code>adb sideload Magisk文件的名称.zip</code>，其中<code>Magisk文件的名称.zip</code>换成在第3步拷入ADB文件夹的.zip文件文件名；<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_sideload_magisk_4.png"></li><li>在PowerShell中执行<code>adb reboot</code>，重启手机，进入系统。</li></ol><h2 id="用Magisk安装模块"><a href="#用Magisk安装模块" class="headerlink" title="用Magisk安装模块"></a>用Magisk安装模块</h2><p>安装模块，也叫刷入模块。  </p><ol><li>正常进入手机系统后，找到Magisk，点击进入。如果提示需要下载完整版Magisk才能使用，则点击“取消”，从电脑拷贝Magisk的<code>.apk</code>文件到手机里面，再在手机里点击该apk进行Magisk的安装（升级）；</li><li>进入Magisk后，如果提示需要修补文件，点击“直接安装（推荐）”，然后点“开始”，修补完后根据提示重启手机；<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_init.jpg">  </li><li>重启手机后，再进入Magisk，点击“模块”，然后点击“从本地安装”即可安装依赖于Magisk的模块（需要事先将模块<code>.zip</code>文件拷入手机）。</li></ol><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_modules.jpg"><br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_install_module.jpg">  </p><p>至此，手机的Root权限已经获取到。  </p><p>推荐安装以下模块：</p><ul><li>救砖模块（防止在Magisk安装了不兼容的模块或冻结了关键应用而导致手机无法启动）</li><li>LSPosed（用于挂载Xposed）（需要先在Magisk设置中启用Zygisk并重启）</li><li>Shamiko（自Magisk v24以来，Magisk Hide被取消，如果需要隐藏系统Root环境，则需要借助外部模块）（对某些APP需要隐藏系统Root环境的情形：使用支付软件、国内银行软件、高反作弊的游戏等）（需要先在Magisk设置中启用Zygisk并重启）<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/root/MI12SPro_magisk_hideroot.jpg"></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文记录最简单的获取安卓手机Root权限的过程，既非线刷，也非深刷。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;演示材料：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 11 家庭版&lt;/li&gt;
+&lt;li&gt;Xiaomi 12S P</summary>
+      
+    
+    
+    
+    <category term="Android" scheme="https://blog.katorly.work/categories/Android/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JetBrains Gateway 连接 WSL 卡在下载IDE的解决办法</title>
+    <link href="https://blog.katorly.work/Stuck-on-Downloading-IDE/"/>
+    <id>https://blog.katorly.work/Stuck-on-Downloading-IDE/</id>
+    <published>2024-01-03T14:21:30.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>准备在Windows Subsystem for Linux 2环境下配置JetBrains家族的IDE并进行程序开发。  </p><p>与Visual Studio Code能直接在WSL中输入<code>code .</code>启动不同, JetBrains家的IDE得在IDE“欢迎访问”页面选择“远程开发”，再连接到WSL才行。JetBrains连接到WSL用的是JetBrains Gateway，JetBrains把WSL视作“远程连接开发”。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/jetbrains/gateway/stuck_on_downloading_ide_1.png">  </p><p>但是，在首次建立连接的时候，JetBrains Gateway一定要自己在WSL的<code>\root\.cache\JetBrains\RemoteDev\dist</code>路径下安装相应的IDE才高兴。而笔者不知是网络还是什么其它原因，每次下载到69%就卡住不动了。等待许久之后迎接我的只有“部署失败”（即下载失败）：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/jetbrains/gateway/stuck_on_downloading_ide_2.png">  </p><p>经过测试发现，在WSL内部通过其它方式将JetBrains的IDE安装在别的路径下，Gateway无法识别。  </p><p>最后找到解决方案：事先在JetBrains官网下载好相应IDE的<code>.tar.gz</code>文件（不一定要放在WSL中），然后在“选择IDE和项目”页面的“IDE版本”下方点击<code>安装选项...</code>，选择<code>上载安装程序文件</code>，再选择事先下载好的<code>.tar.gz</code>文件即可，Gateway识别后会直接开始安装IDE，安装完成后即可愉快地开始开发。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/jetbrains/gateway/stuck_on_downloading_ide_3.png">  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;准备在Windows Subsystem for Linux 2环境下配置JetBrains家族的IDE并进行程序开发。  &lt;/p&gt;
+&lt;p&gt;与Visual Studio Code能直接在WSL中输入&lt;code&gt;code .&lt;/code&gt;启动不同, JetBrains家的ID</summary>
+      
+    
+    
+    
+    <category term="Jetbrains" scheme="https://blog.katorly.work/categories/Jetbrains/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>免费Minecraft服务器——Aternos</title>
+    <link href="https://blog.katorly.work/Free-Minecraft-Server-Hosting-Aternos/"/>
+    <id>https://blog.katorly.work/Free-Minecraft-Server-Hosting-Aternos/</id>
+    <published>2023-12-19T04:05:42.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos.png">  </p><p>经过多轮Minecraft免费服务器的比较，我从<strong>至少免费了5年</strong>的VPSCraft、Minehut、Server.pro、ScalaCube和Aternos中筛选出了不充钱就能用且自由度较高的Aternos。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_ingame.png">  </p><p>值得一提的是，我原本选中了Aternos和Minehut，其中Minehut原本是一个理想的免费Minecraft服务器提供商，但最近其因为运营问题将免费服务器限额限制到了每天只能开启几小时，故将Minehut移除推荐。<br>Minehut与本篇的Aternos相比，仍有许多可取之处。若要查看Minehut比Aternos有何优势，请翻到本文的最下面。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Minehut_is_no_longer_an_option.png">  </p><p>本篇主要对Aternos进行介绍和推荐。  </p><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>Aternos是一个Minecraft免费服务器提供商，其在其官网<a href="https://aternos.org/">aternos.org</a><strong>没有</strong>提供付费方案，但是其同一团队名下还有另一个Minecraft付费服务器解决方案的服务提供商（这里我就不放出来链接了，毕竟我这篇文章不是广告），与Aternos的面板和操作都几乎一模一样。  </p><p>快速浏览Aternos情况：<br>✅ Java版、基岩版<br>✅ 核心种类多<br>✅ 可选GeyserMC<br>✅ 完全控制台权限<br>✅ 文件编辑<br>✅ 自定义域名<br>✅ 备份到谷歌云盘<br>❕ 运存2GB<br>❕ 储存空间4GB<br>❕ 国内易丢包<br>❕ 无人5分钟关闭<br>❌ 必须在后台开启服务器<br>❌ 不支持上传文件和插件<br>❌ 不能下载整个服务器<br>❌ 需要自己找玩家<br>❌ 长期不开服会删除数据  </p><p>Aternos靠什么维持免费服务器的费用？用站内广告。在你在后台操作服务器的时候，页面上方和右边都会出现一定程度的广告。如果你使用了广告屏蔽器，那么你每次访问和刷新页面的时候都会出现这个红色的页面，若你点击“继续使用广告拦截器”，则会进入3秒倒计时，倒计时过后才会给你继续用：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_adblocker.png">  </p><p>Aternos完全免费，用的是自己开发的面板。其官网也从未被墙，并且自2013年以来就稳定运行。  </p><h2 id="详细介绍"><a href="#详细介绍" class="headerlink" title="详细介绍"></a>详细介绍</h2><p>Aternos官网只提供免费服务，且只有一种服务器配置，没有升级的渠道。<br>下面将介绍各位最为关心的免费限制。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_panel.png">  </p><h3 id="基本情况"><a href="#基本情况" class="headerlink" title="基本情况"></a>基本情况</h3><p>运行内存（RAM）: 2GB<br>储存空间（ROM）：4GB<br>不支持下载和上传一整个服务器<br>最大玩家数: 无限制<br>离线登录: 允许<br>开启方式: 在官网后台手动开启, 与Minehut不同, 不支持游戏内开启服务器。<br><strong>运行时间:</strong> 没有总运行时间限制。但一旦服务器内没有玩家5分钟，服务器就会自动关闭（与Minehut一样）。玩家挂机5分钟（建个最简单的挂机池即可避免被检测到挂机）后会被移出服务器, 此时再过5分钟如果服务器内无其他玩家则会自动关闭服务器。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_properties.png">  </p><h3 id="服务端核心"><a href="#服务端核心" class="headerlink" title="服务端核心"></a>服务端核心</h3><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_server_core.png">  </p><p>Java版，支持以下核心全部正式版本: </p><ul><li>Vanilla, Snapshot (原版)</li><li>Spigot, Paper, Purpur (Bukkit)</li><li>Glowstone</li><li>Quilt, NeoForge, Forge, Arclight (模组)<br>此外，还支持ATLauncher, CurseForge, Feed-the-beast和Technicpack整合包的一键安装开服。</li></ul><p>Bedrock版，支持以下核心全部正式版本：</p><ul><li>Bedrock, Bedrock Preview (原版)</li><li>Pocketmine (用于插件)</li></ul><h3 id="插件-模组"><a href="#插件-模组" class="headerlink" title="插件&amp;模组"></a>插件&amp;模组</h3><p>这一点非常遗憾，Aternos为了“安全”考量，禁止服主自行上传插件和模组（我个人觉得这是最大的败笔，毕竟Minehut都支持这么做）。所有插件&#x2F;模组必须在<a href="https://aternos.org/addons">插件模组页面</a>安装。如果这里没有列出你需要的插件&#x2F;模组，则你可以请求增加某一个插件&#x2F;模组，但一般希望渺茫。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_plugins.png">  </p><p>一般来说，Aternos的插件模组页面收录的是CurseForge官网、Bukkit官网和SpigotMC官网中能够<strong>直链下载</strong>（即上传到对应官网，而不是链接到外部网站下载）的插件和模组，所以某些你觉得常用的的插件找不到是很正常的：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_too_few_plugins.png">  </p><p>对于Java版服务端的某些核心，Aternos支持单独安装<code>GeyserMC</code>，一个让你的Java版服务器能够被基岩版玩家连接并正常游戏的插件。不需要额外申请端口，Aternos已经帮你配置好。（见GeyserMC官方文档的<a href="https://wiki.geysermc.org/geyser/supported-hosting-providers">Supported Hosting Providers&#x2F;Built-in Geyser</a>）</p><h3 id="控制台"><a href="#控制台" class="headerlink" title="控制台"></a>控制台</h3><p>提供服务器后台完全访问权限。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_console.png">  </p><h3 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h3><p>文件管理比较自由，可以编译任何能够用文本文档解码的文件。Yaml文件和JSON文件还自带高亮，便于编辑。  </p><p>但是，这些文件只能一个一个地下载，并且只能新建文件和新建文件夹，而不能上传任何文件。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_files.png">  </p><h3 id="世界"><a href="#世界" class="headerlink" title="世界"></a>世界</h3><p>与大多数面板一样，Aternos提供了供小白操作的世界管理面板，但是与Minehut一样，似乎只支持管理主世界、主世界下界和主世界末地，并且若要从本地上传世界的话，只能上传并覆盖这三个维度。  </p><p>你可以随时下载这些世界，还可以编辑世界生成选项。</p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_worlds.png">  </p><p>不过，若要在插件服里加入更多世界，可以安装<code>Multiverse-Core</code>插件，但不能在世界面板中管理。  </p><h3 id="玩家"><a href="#玩家" class="headerlink" title="玩家"></a>玩家</h3><p>后台面板提供了小白都会用的玩家管理面板，如下图所示：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_player_1.png">  </p><p>甚至不用装额外的插件就能看到在线和离线玩家的背包和末影箱：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_player_2.png">  </p><h3 id="宣传"><a href="#宣传" class="headerlink" title="宣传"></a>宣传</h3><p>Aternos允许你完全自定义服务器的MOTD（使用样式、颜色、特殊字符，甚至MOTD插件）和图标，但服务器离线状态下不可控。  </p><p>下图为离线的时候MOTD的样子：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_motd.png">  </p><h3 id="域名"><a href="#域名" class="headerlink" title="域名"></a>域名</h3><p>如果你没有自己的域名，你可以使用Aternos提供的，格式为<code>xxx.aternos.me</code>（其中<code>xxx</code>可自定义）。<br>当然，你也可以绑定自己的域名。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_custom_domain.png">  </p><p>有一点，就是不能在游戏中直接使用域名来连接到服务器，而需要加上它给你指定的端口。在哪看这个端口？在Aternos后台面板，或者你把IP添加到你游戏客户端的服务器列表后，MOTD会告诉你（服务器得是开着的状态）。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_port.png">  </p><h3 id="备份"><a href="#备份" class="headerlink" title="备份"></a>备份</h3><p>如果你长时间未开启服务器（个人经验发现可能为4个月），Aternos会视为该服务器不活跃并删除你的服务器（可以设置提前用邮件通知你）。在删除你的服务器时，服务器在谷歌云盘的备份不会被删除，因此备份十分重要。  </p><p>Aternos支持自动备份和手动备份。不能下载服务器文件到本地，而是将其保存在第三方云服务上面。Aternos使用谷歌云盘服务让你对你的服务器进行备份。你只需要在绑定的时候登录谷歌账号，其余时间不需要访问谷歌即可进行备份。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_backup.png">  </p><p>根据Aternos帮助文档的描述，为了保护隐私起见，备份在谷歌云盘上的你的服务器你自己是看不见的，只能在Aternos面板上进行还原（即使删除了当前服务器再创一个绑定之后也可以看到这些备份）。  </p><h3 id="权限管理"><a href="#权限管理" class="headerlink" title="权限管理"></a>权限管理</h3><p>比Minehut要好的是，你可以给其他人你Aternos服务器后台的管理权限，他们能像你一样登录Aternos进行上述管理操作。你还可以控制他们能访问哪些设置。不过，服务器仍然不能被转让。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos_manager.png">  </p><h2 id="Minehut-有何优势"><a href="#Minehut-有何优势" class="headerlink" title="Minehut 有何优势"></a>Minehut 有何优势</h2><p>要不是Minehut突然把每天一个账号的总运行时间限制到几小时，我更推荐Minehut而不是Aternos。  </p><p>Minehut同时提供付费方案。此处只比较免费的部分。  </p><h3 id="有完整生态"><a href="#有完整生态" class="headerlink" title="有完整生态"></a>有完整生态</h3><p>Minehut有联机大厅，你的服务器可在该大厅菜单中被其他人发现，而不需要你去把IP告诉别人。作为玩家，你也可以在菜单里浏览各种服务器，加入并游玩。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_minehut_menu.png">  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_minehut_server_history.png">  </p><h3 id="玩家能够启动你的服务器"><a href="#玩家能够启动你的服务器" class="headerlink" title="玩家能够启动你的服务器"></a>玩家能够启动你的服务器</h3><p>即使你不在线、你的服务器不在线，玩家在大厅中输入<code>/join &lt;你的服务器名&gt;</code>指令就可以启动你的服务器，过不多久就会自动将该玩家传送到你的服务器中。  </p><h3 id="网络连接更稳定"><a href="#网络连接更稳定" class="headerlink" title="网络连接更稳定"></a>网络连接更稳定</h3><p>在国内，Aternos的服务器（<a href="https://board.aternos.org/thread/32390-server-location/?postID=117500#post117500">实际位置</a>在德国）游戏连接远没有Minehut的服务器（<a href="https://forums.minehut.com/topic/26923-where-are-minehut-servers-located-any-in-the-oceania-region/?do=findComment&comment=84800">实际位置</a>在美国纽约）稳定。虽然Aternos的延迟比Minehut要低，但是Minehut不会出现丢包的情况。  </p><p>由于Aternos和Minehut服务器均开启了反ping，这里无法给出测速和延迟数据。  </p><h3 id="文件更自由"><a href="#文件更自由" class="headerlink" title="文件更自由"></a>文件更自由</h3><p>虽然也不能上传整个服务器，但Minehut支持上传自己的文件和.jar文件，以及可以多选下载整个服务器。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_minehut_file_upload.png">  </p><h3 id="储存空间更大"><a href="#储存空间更大" class="headerlink" title="储存空间更大"></a>储存空间更大</h3><p>Aternos上的每个服务器储存空间只有<a href="https://support.aternos.org/hc/en-us/articles/360035144691">4GB</a>，而Minehut有<a href="https://forums.minehut.com/topic/49067-is-there-a-filesystem-space-limit-example-4gb-for-your-server-files-for-your-minehut-servers/?do=findComment&comment=148877">20GB</a>。不过实测如果上传1GB的世界文件给Minehut，它会卡住。  </p><h3 id="可以直接通过域名连接"><a href="#可以直接通过域名连接" class="headerlink" title="可以直接通过域名连接"></a>可以直接通过域名连接</h3><p>Minehut在设置它提供的子域名或者绑定自己域名后，可以直接用游戏客户端连接服务器而不需要再输入指定端口。  </p><h3 id="永远不会删除你的服务器"><a href="#永远不会删除你的服务器" class="headerlink" title="永远不会删除你的服务器"></a>永远不会删除你的服务器</h3><p>即使你很多年都没开启你的服务器，Minehut都不会删除你的服务器文件。  </p><p>不过，Minehut在2018年的时候出现过一次服务器文件丢失事件，直接导致数以千计的服务器数据丢失。直到现在Minehut未再次出现这种情况。  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/minecraft/freeserver/Free-Minecraft-Hosting_aternos.png&quot;&gt;  &lt;/p&gt;
+&lt;p&gt;经过多轮Mine</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://blog.katorly.work/categories/Minecraft/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Kotlin TCP客户端</title>
+    <link href="https://blog.katorly.work/Kotlin-TCP-Cilent/"/>
+    <id>https://blog.katorly.work/Kotlin-TCP-Cilent/</id>
+    <published>2023-12-13T13:34:50.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文将讲述如何用Kotlin语言写一个最简单的TCP连接，作为客户端连接TCP服务器。<br>假定我的TCP服务器每次发送一串字符串供客户端接收。  </p><h2 id="基本连接、断连、接收、发送函数"><a href="#基本连接、断连、接收、发送函数" class="headerlink" title="基本连接、断连、接收、发送函数"></a>基本连接、断连、接收、发送函数</h2><p>这里我使用<code>java.net.Socket</code>这个现成的工具类来实现连接，先声明一个套接字：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> socket: Socket</span><br></pre></td></tr></table></figure><p>然后是输入和输出流：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> reader: BufferedReader</span><br><span class="line"><span class="keyword">var</span> writer: PrintWriter</span><br></pre></td></tr></table></figure><p>接下来就可以开始连接TCP服务器了：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">connect</span><span class="params">()</span></span> &#123;</span><br><span class="line">    socket = Socket()                                                   <span class="comment">// 声明新的套接字</span></span><br><span class="line">    socket.connect(InetSocketAddress(<span class="string">&quot;192.168.4.1&quot;</span>, <span class="string">&quot;8080&quot;</span>), <span class="number">5000</span>)      <span class="comment">// TCP服务器地址192.168.4.1，端口8080，超时时间5000ms，超过则抛出异常</span></span><br><span class="line">    reader = BufferedReader(InputStreamReader(socket.getInputStream())) <span class="comment">// 获取输入流，用于读取服务器发送过来的字符串</span></span><br><span class="line">    writer = PrintWriter(socket.getOutputStream(), <span class="literal">true</span>)                <span class="comment">// 获取输出流，用于发送字符串到服务器</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>然后这里是手动断开与TCP服务器的连接：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">disconnect</span><span class="params">()</span></span> &#123;</span><br><span class="line">    writer.close()          <span class="comment">// 关闭PrintWriter</span></span><br><span class="line">    reader.close()          <span class="comment">// 关闭BufferedReader</span></span><br><span class="line">    socket.close()          <span class="comment">// 关闭套接字</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>向TCP服务器发送字符串，这个再简单不过了，而且不用考虑其它类型的变量，直接字符串大法，什么都直接转成字符串来发送：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">send</span><span class="params">(message: <span class="type">String</span>)</span></span> &#123;</span><br><span class="line">    writer.println(message)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>主动从TCP服务器接收字符串，如果要实现自动接收得新建一个定时器循环调用这个函数：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">receive</span><span class="params">(size: <span class="type">Int</span>)</span></span>: String &#123;</span><br><span class="line">    <span class="keyword">val</span> buffer = CharArray(size)      <span class="comment">// 创建一个有size个元素的字符数组（也就是字符串）</span></span><br><span class="line">    <span class="keyword">val</span> length = reader.read(buffer)  <span class="comment">// 从TCP服务器读取字符串</span></span><br><span class="line">    <span class="keyword">return</span> String(buffer, <span class="number">0</span>, length)  <span class="comment">// 返回接收到的字符串</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>到这里，一个最基础的Kotlin TCP客户端代码就完成了。  </p><h2 id="发送心跳包检测连接是否丢失"><a href="#发送心跳包检测连接是否丢失" class="headerlink" title="发送心跳包检测连接是否丢失"></a>发送心跳包检测连接是否丢失</h2><p>此外，还可以加入一个<code>isConnected</code>变量，来实时检测TCP连接是否丢失。当我们连接上TCP服务器时，如果TCP服务器关闭或发生了其它异常导致TCP连接丢失，我们的客户端是不会被告知的，这时候如果再进行数据收发操作就会产生异常。<br>所以，我们可以在初始化的时候声明一个<code>isConnected</code>的Boolean变量；在<code>connect()</code>函数中连接完成后赋值为true，并发送心跳包实时检测TCP连接是否丢失；在<code>disconnect()</code>函数中赋值为false；在<code>send()</code>和<code>receive(size: Int)</code>中加入检测是否已连接的代码，如果未连接则不执行操作。<br>以下为一个简易的心跳包代码：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">heartbeat</span><span class="params">()</span></span> &#123;</span><br><span class="line">    timer(period = <span class="number">1000</span>) &#123;          <span class="comment">// 每1000毫秒检测一次</span></span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="keyword">val</span> value = receive()   <span class="comment">// 进行任意与TCP服务器有交流的操作，最好不要随意向服务器发数据，所以这里主动调用接收</span></span><br><span class="line">        &#125; <span class="keyword">catch</span> (e: Exception) &#123;    <span class="comment">// 如果发生异常，则表明TCP连接是丢失了的</span></span><br><span class="line">            <span class="keyword">if</span> (isConnected) &#123;      <span class="comment">// 如果不是手动断开连接的</span></span><br><span class="line">                isConnected = <span class="literal">false</span> <span class="comment">// 赋值为false</span></span><br><span class="line">                disconnect()        <span class="comment">// 仍然需要关闭那些东西</span></span><br><span class="line">            &#125;</span><br><span class="line">            cancel()                <span class="comment">// 关闭定时器</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>在<code>connect()</code>函数的最后调用<code>heartbeat()</code>即可。  </p><h2 id="一次性获取服务器发过来的字符串"><a href="#一次性获取服务器发过来的字符串" class="headerlink" title="一次性获取服务器发过来的字符串"></a>一次性获取服务器发过来的字符串</h2><p>上面<code>receive(size: Int)</code>函数指定了一次接收多少长度的数据。我们也可以改成用Scanner来一次性读取整行数据。  </p><p>在初始化那里，把reader改成：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> reader: Scanner</span><br></pre></td></tr></table></figure><p>在<code>connect()</code>函数里，把reader改成：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reader = Scanner(InputStreamReader(socket.getInputStream()))</span><br></pre></td></tr></table></figure><p>最后，把<code>receive(size: Int)</code>函数改成下面这样即可：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">receive</span><span class="params">()</span></span>: String &#123;</span><br><span class="line">    <span class="keyword">return</span> reader.readText()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="完整代码"><a href="#完整代码" class="headerlink" title="完整代码"></a>完整代码</h2><p>下面我把<code>connect()</code>函数里面服务器的连接地址和端口改成了可以自定义的那种，并把整个TCP客户端封装成一个类：</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> java.io.BufferedReader</span><br><span class="line"><span class="keyword">import</span> java.io.InputStreamReader</span><br><span class="line"><span class="keyword">import</span> java.io.PrintWriter</span><br><span class="line"><span class="keyword">import</span> java.net.InetSocketAddress</span><br><span class="line"><span class="keyword">import</span> java.net.Socket</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">TCPConnect</span>(<span class="keyword">private</span> <span class="keyword">val</span> serverIP: String, <span class="keyword">private</span> <span class="keyword">val</span> serverPort: <span class="built_in">Int</span>) &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">lateinit</span> <span class="keyword">var</span> socket: Socket</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">lateinit</span> <span class="keyword">var</span> reader: BufferedReader</span><br><span class="line">    <span class="comment">// private lateinit var reader: Scanner</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">lateinit</span> <span class="keyword">var</span> writer: PrintWriter</span><br><span class="line">    <span class="keyword">var</span> isConnected = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">connect</span><span class="params">()</span></span> &#123;</span><br><span class="line">        socket = Socket()</span><br><span class="line">        socket.connect(InetSocketAddress(serverIP, serverPort), <span class="number">5000</span>)</span><br><span class="line">        reader = BufferedReader(InputStreamReader(socket.getInputStream()))</span><br><span class="line">        <span class="comment">// reader = Scanner(InputStreamReader(socket.getInputStream()))</span></span><br><span class="line">        writer = PrintWriter(socket.getOutputStream(), <span class="literal">true</span>)</span><br><span class="line">        isConnected = <span class="literal">true</span></span><br><span class="line">        heartbeat()</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">disconnect</span><span class="params">()</span></span> &#123;</span><br><span class="line">        isConnected = <span class="literal">false</span></span><br><span class="line">        writer.close()</span><br><span class="line">        reader.close()</span><br><span class="line">        socket.close()</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">send</span><span class="params">(message: <span class="type">String</span>)</span></span> &#123;</span><br><span class="line">        writer.println(message)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">receive</span><span class="params">()</span></span>: String &#123;</span><br><span class="line">        <span class="comment">// return reader.readText()</span></span><br><span class="line">        <span class="keyword">val</span> buffer = CharArray(<span class="number">24</span>)</span><br><span class="line">        <span class="keyword">val</span> length = reader.read(buffer)</span><br><span class="line">        <span class="keyword">return</span> String(buffer, <span class="number">0</span>, length)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">fun</span> <span class="title">heartbeat</span><span class="params">()</span></span> &#123;</span><br><span class="line">        timer(period = <span class="number">1000</span>) &#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                <span class="keyword">val</span> value = receive()</span><br><span class="line">            &#125; <span class="keyword">catch</span> (e: Exception) &#123;</span><br><span class="line">                <span class="keyword">if</span> (isConnected) &#123;</span><br><span class="line">                    isConnected = <span class="literal">false</span></span><br><span class="line">                    disconnect()</span><br><span class="line">                &#125;</span><br><span class="line">                cancel()</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>因为我TCP服务器的代码是用C语言提供的，这里就先不放出来了，以后有缘再用Kotlin写个这样简易的代码出来~</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本文将讲述如何用Kotlin语言写一个最简单的TCP连接，作为客户端连接TCP服务器。&lt;br&gt;假定我的TCP服务器每次发送一串字符串供客户端接收。  &lt;/p&gt;
+&lt;h2 id=&quot;基本连接、断连、接收、发送函数&quot;&gt;&lt;a href=&quot;#基本连接、断连、接收、发送函数&quot; class</summary>
+      
+    
+    
+    
+    <category term="Kotlin" scheme="https://blog.katorly.work/categories/Kotlin/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>安卓桌面小组件或可成为跳开屏广告新手段</title>
+    <link href="https://blog.katorly.work/MIUI-Components-Skip-Ads/"/>
+    <id>https://blog.katorly.work/MIUI-Components-Skip-Ads/</id>
+    <published>2023-12-10T12:42:23.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文使用MIUI进行演示，其它系统大概也有类似桌面小组将的功能可供使用。<br>查看当前窗口展示的类使用的是 一指禅APP 的悬浮窗功能。  </p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/miui_skip_ads_1.jpg">  </p><p>如图所示，MIUI桌面小组件支持自定义唤起APP特定类名，可设置点击图标后直接唤起APP主Activity而不唤起启动Activity，设置完成后从下图小组件中图标启动APP即可直接打开主页而跳过启动页，从而达到跳过开屏广告的效果。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/miui_skip_ads_2.jpg">  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/miui_skip_ads_3.jpg">  </p><p>上图为从原APP图标启动的情况，下图为从小组件图标启动的情况。后者跳过了开屏广告。 </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/miui_skip_ads_4.jpg">  </p><p>不过，值得注意的是，少数APP例如Office 365、Microsoft Onenote等不支持直接唤起主Activity，这是因为他们在启动Activity时进行了某些值的初始化，若跳过启动Activity直接进入主Activity，会使某些值空指针异常，导致APP闪退，如下图所示。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/miui_skip_ads_5.jpg">  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文使用MIUI进行演示，其它系统大概也有类似桌面小组将的功能可供使用。&lt;br&gt;查看当前窗口展示的类使用的是 一指禅APP 的悬浮窗功能。  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.</summary>
+      
+    
+    
+    
+    <category term="Android" scheme="https://blog.katorly.work/categories/Android/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>WSL2 Linux 文件夹为空的解决办法</title>
+    <link href="https://blog.katorly.work/WSL2-Linux-Folder-Empty/"/>
+    <id>https://blog.katorly.work/WSL2-Linux-Folder-Empty/</id>
+    <published>2023-08-13T18:53:39.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>前一个月在 Windows 11 上安装了 Windows Subsystem for Linux (WSL2)，这个月再打开 <code>Linux</code> 文件夹时，却发现它变成空文件夹了。如下图所示：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/linux-folder-empty_1.png">  </p><p>在终端输入 <code>wsl -l -v</code>，是有 Linux 分发版本安装的。  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/linux-folder-empty_2.png">  </p><p>在本地找到了 Linux 存放的位置，却打不开这种硬盘映像文件。  </p><blockquote><p>演示系统：Windows 11 家庭版 22H2</p></blockquote><p>这时候，只需要进行以下操作，就可以轻松访问 Linux 中的文件了：  </p><ol><li><p>随便在一个地方新建快捷方式。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/linux-folder-empty_4.png">  </p></li><li><p>输入路径：<code>\\wsl$\&lt;你的Linux分发版本名称&gt;</code>。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/linux-folder-empty_5.png"></p></li></ol><p>创建完成后，你应该会注意到快捷方式图标的变化：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/linux-folder-empty_6.png">  </p><ol start="3"><li><p>右键它，选择“映射网络驱动器”，在弹出的窗口中选择一个合理的盘符，其它选项不要动。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/linux-folder-empty_7.png"><br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/linux-folder-empty_8.png">  </p></li><li><p>点击“完成”之后，在“此电脑”的“网络位置”就可以看到它啦。双击打开它也是可以访问的。<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/linux-folder-empty_9.png"><br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/linux-folder-empty_10.png"></p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;前一个月在 Windows 11 上安装了 Windows Subsystem for Linux (WSL2)，这个月再打开 &lt;code&gt;Linux&lt;/code&gt; 文件夹时，却发现它变成空文件夹了。如下图所示：  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn</summary>
+      
+    
+    
+    
+    <category term="Windows" scheme="https://blog.katorly.work/categories/Windows/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Windows 无法双击打开 .jar 文件解决办法</title>
+    <link href="https://blog.katorly.work/Windows-cant-Double-Click-jar/"/>
+    <id>https://blog.katorly.work/Windows-cant-Double-Click-jar/</id>
+    <published>2023-06-28T22:22:18.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>演示系统：Windows 11 家庭版 22H2</p></blockquote><p>之前换了台电脑，现在发现双击<code>.jar</code>文件没法直接打开了。配置PATH环境变量、把默认应用绑定到 OpenJDK Platform binary，双击后仍然啥反应没有。用命令行<code>javaw -jar %1</code>运行倒是可以打开。（如果不加参数<code>-jar</code>就没反应） </p><p>看了网上的教程，倒是有个自己把<code>javaw -jar %1</code>这个命令写到一个<code>.bat</code>文件里，然后把<code>.jar</code>文件的默认应用绑定为这个<code>.bat</code>文件，但这样每次都会弹出一个黑框，关闭黑框程序也就终止了（虽然有隐藏黑框的方法，但自认为这么做不妥）。  </p><p>后来还看到一个方法，说是把注册表中路径<code>计算机\HKEY_CLASSES_ROOT\Applications\javaw.exe\shell\open\command</code>中默认键值改为<code>&quot;&lt;你的JDK路径&gt;\bin\javaw.exe&quot; -jar &quot;%1&quot;</code>，但我这里仍未能解决。  </p><p>我还找到了<code>计算机\HKEY_CLASSES_ROOT\jar_auto_file</code>，把里面的数据改为上面说的那个值，仍然没用。  </p><p>最后找到了<code>计算机\HKEY_CLASSES_ROOT\jar_auto_file\shell\open\command</code>，把里面的默认值改为上面那个启动值<code>&quot;&lt;你的JDK路径&gt;\bin\javaw.exe&quot; -jar &quot;%1&quot;</code>，其中<code>&lt;你的路径&gt;</code>改为你的 Java 本地<strong>绝对</strong>路径即可。（无需重启电脑）  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/cant-double-click-jar-file_2.png">  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;演示系统：Windows 11 家庭版 22H2&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;之前换了台电脑，现在发现双击&lt;code&gt;.jar&lt;/code&gt;文件没法直接打开了。配置PATH环境变量、把默认应用绑定到 OpenJDK Platform </summary>
+      
+    
+    
+    
+    <category term="Windows" scheme="https://blog.katorly.work/categories/Windows/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Win11 恢复 Win10 右键菜单样式</title>
+    <link href="https://blog.katorly.work/Win11-Right-Click-Menu/"/>
+    <id>https://blog.katorly.work/Win11-Right-Click-Menu/</id>
+    <published>2023-06-28T19:28:40.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文主要讲解如何将 Windows 11 的右键菜单改为以前 Windows 10 的那样，以及如何再改回 Windows 11 的样子。  </p><p>操作涉及修改注册表，若怕失误，可以先备份注册表。  </p><blockquote><p>演示系统：Windows 11 家庭版 22H2</p></blockquote><p>Windows 11 右键菜单如图所示：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/win11-right-click-menu.png">  </p><p>要执行更多操作，需要点击最下面的<code>显示更多选项</code>或按<code>Shift+F10</code>，是不是有点麻烦。  </p><p>而 Windows 10 右键菜单是这样的：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/win10-right-click-menu.png">  </p><h2 id="命令方法"><a href="#命令方法" class="headerlink" title="命令方法"></a>命令方法</h2><p>运行如下命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reg add &quot;HKCU\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;\InprocServer32&quot; /f /ve</span><br></pre></td></tr></table></figure><p>并重启电脑即可。  </p><p>一般来说，重启的时候会显示“正在更新”，表示修改成功了。  </p><h2 id="如何恢复"><a href="#如何恢复" class="headerlink" title="如何恢复"></a>如何恢复</h2><p>运行如下命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reg delete &quot;HKCU\Software\Classes\CLSID\&#123;86ca1aa0-34aa-4e8b-a509-50c905bae2a2&#125;\InprocServer32&quot; /va /f</span><br></pre></td></tr></table></figure><p>并重启电脑即可。  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本文主要讲解如何将 Windows 11 的右键菜单改为以前 Windows 10 的那样，以及如何再改回 Windows 11 的样子。  &lt;/p&gt;
+&lt;p&gt;操作涉及修改注册表，若怕失误，可以先备份注册表。  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;演示系统：Window</summary>
+      
+    
+    
+    
+    <category term="Windows" scheme="https://blog.katorly.work/categories/Windows/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Win11 移除快捷方式图标箭头</title>
+    <link href="https://blog.katorly.work/Win11-Shortcut-Arrow/"/>
+    <id>https://blog.katorly.work/Win11-Shortcut-Arrow/</id>
+    <published>2023-06-28T18:42:43.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文主要讲解如何移除 Windows 11 快捷方式图标右下角的箭头，以及在移除之后想加回来的时候如何恢复。  </p><p>操作涉及修改注册表，若怕失误，可以先备份注册表。  </p><blockquote><p>演示系统：Windows 11 家庭版 22H2</p></blockquote><p>Windows 11 快捷方式图标右下角的箭头如图所示：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/win11-shortcut-example.png">  </p><h2 id="手动方法"><a href="#手动方法" class="headerlink" title="手动方法"></a>手动方法</h2><h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><p>在注册表编辑器路径</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons</span><br></pre></td></tr></table></figure><p>中新建名为</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">29</span><br></pre></td></tr></table></figure><p>的<strong>字符串值</strong>，并设置数值数据为：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">%systemroot%\system32\imageres.dll,197</span><br></pre></td></tr></table></figure><p>这一步操作完之后，注册表相应区域应该长这样：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/win11-shortcut-registry.png">  </p><h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><p>运行系统自带的<code>磁盘清理</code>，如图所示：  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/win11/win11-cipanqingli.png">  </p><p>驱动器选择系统盘，在扫描完成之后选择<code>缩略图</code>，再点确定。这将清除系统缩略图缓存。  </p><h3 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h3><p>打开<code>文件资源管理器</code>（相当于“此电脑”），再打开任务管理器，选择“Windows 资源管理器”（或explorer.exe），点击“重启任务”。  </p><p>等待其重启之后，快捷方式图标右下角的箭头就会消失啦。  </p><h2 id="命令方法"><a href="#命令方法" class="headerlink" title="命令方法"></a>命令方法</h2><p>运行如下命令即可：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">reg add &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons&quot; /v 29 /d &quot;%systemroot%\system32\imageres.dll,197&quot; /t reg_sz /f</span><br><span class="line"></span><br><span class="line">taskkill /f /IM explorer.exe</span><br><span class="line"></span><br><span class="line">attrib -s -r -h &quot;%userprofile%\AppData\Local\iconcache.db&quot;</span><br><span class="line"></span><br><span class="line">del &quot;%userprofile%\AppData\Local\iconcache.db&quot; /f /q</span><br><span class="line"></span><br><span class="line">start explorer</span><br></pre></td></tr></table></figure><h2 id="如何恢复"><a href="#如何恢复" class="headerlink" title="如何恢复"></a>如何恢复</h2><p>在注册表编辑器路径</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons</span><br></pre></td></tr></table></figure><p>中删除名为<code>29</code>的字符串值，  </p><p>或者使用命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reg delete &quot;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons&quot; /va /f</span><br></pre></td></tr></table></figure><p>之后与上面的方法类似，清除系统缩略图缓存，并重启“Windows 资源管理器”（或explorer.exe）即可。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本文主要讲解如何移除 Windows 11 快捷方式图标右下角的箭头，以及在移除之后想加回来的时候如何恢复。  &lt;/p&gt;
+&lt;p&gt;操作涉及修改注册表，若怕失误，可以先备份注册表。  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;演示系统：Windows 11 家庭版 22H2&lt;/</summary>
+      
+    
+    
+    
+    <category term="Windows" scheme="https://blog.katorly.work/categories/Windows/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>导数——拐点偏移在高考中的应用</title>
+    <link href="https://blog.katorly.work/Derivative-6/"/>
+    <id>https://blog.katorly.work/Derivative-6/</id>
+    <published>2022-07-16T12:55:00.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>$a,b\in D,f(\frac{a+b}{2})&lt;\frac{f(a)+f(b)}{2}$<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/gkmaths/derivative-6-1.png"><br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/gkmaths/derivative-6-3.png"><br>$k$先减后增，$f^{‘}(x)$先减后增  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/gkmaths/derivative-6-2.png"><br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/gkmaths/derivative-6-4.png"><br>$k$先增后减，$f^{‘}(x)$先增后减  </p><p>$\Rightarrow\color{Magenta}f^{‘’}(x)&#x3D;0$  </p><p><strong>拐点：凹凸性改变的点（是个点）</strong>  </p><p>$\color{Magenta}\begin{aligned}<br>  &amp;原f(x) &amp;拐点\\<br>  &amp;导f^{‘}(x) &amp;极值点\\<br>  &amp;二导f^{‘’}(x) &amp;零点<br>\end{aligned}$  </p><p>题型特点：$f(x)$相加为<em>定值</em>.  </p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h3><p>$\color{Cyan}已知f(x)&#x3D;2\ln x+x^2+x. 若正实数x_1,x_2满足f(x_1)+f(x_2)&#x3D;4，求证：x_1+x_2\geq2.$</p><p>$f^{‘}(x)&#x3D;\frac{2}{x}+2x+1&#x3D;\frac{2x^2+x+2}{x}&gt;0\qquad f(x)递增$  </p><p>$f^{‘’}(x)&#x3D;-\frac{2}{x^2}+2&#x3D;\frac{2x^2-2}{x^2}\qquad令f^{‘’}(x)&#x3D;0\Rightarrow x&#x3D;1$  </p><p>$\therefore拐点：f(x)&#x3D;2\qquad不妨设0&lt;x_1&lt;1&lt;x_2$  </p><p>$f(x_1)+f(x_2)&#x3D;4\Rightarrow f(x_2)&#x3D;4-f(x_1)$  </p><p>$\therefore只需证x_1+x_2\geq2\Rightarrow x_2\geq2-x_1$  </p><p>$\Leftrightarrow f(x_2)-f(2-x_1)\geq0\Leftrightarrow f(x_1)+f(2-x_1)\leq4$  </p><p>$F(x)&#x3D;f(x_1)+f(2-x_1)&#x3D;$  </p><p>$找出F(x)_{max}并证明其小于等于4即可.$  </p><h3 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h3><p>$\color{Cyan}已知f(x)&#x3D;x\ln x-\frac{1}{2}x^2，若f(x_1)+f(x_2)&#x3D;-1，(x_1\neq x_2)，证明：x_1+x_2&gt;2.$  </p><p>$f^{‘}(x)&#x3D;\ln x+1-x\quad(x&gt;0)$  </p><p>$f^{‘’}(x)&#x3D;\frac{1}{x}-1\qquad令f^{‘’}(x)&#x3D;0\Rightarrow x&#x3D;1$$\color{Magenta}\textit{（导为0求拐点）}$</p><p>$\therefore拐点f(1)&#x3D;{\color{Magenta}-\frac{1}{2}}\qquad不妨设x_1&gt;1&gt;x_2&gt;0$  </p><p>$只需证x_1+x_2&gt;2\Rightarrow x_1{\color{Magenta}&gt;}2-x_2$  </p><p>$\Leftrightarrow f(x_1)-f(2-x_2){\color{Magenta}&lt;}0$$\color{Magenta}\textit{（注意函数增减）}$$\color{Magenta}\textit{（将小的移到有常数的一边）}$  </p><p>$\because f(x_1)+f(x_2)&#x3D;{\color{Magenta}-1}\Rightarrow f(x_1)&#x3D;-1-f(x_2)$$\color{Magenta}\textit{（相加得到的$-1$为拐点$-\frac{1}{2}$的2倍）}$  </p><p>$\therefore-1-f(x_2)-f(2-x_2)&lt;0$  </p><p>$\Leftrightarrow f(x_2)+f(2-x_2)&gt;-1$<br>$\color{Magenta}\textit{（e.g. 证$2-f(x_2)-f(-x_2)&lt;0$是不行的. 一定要把常数和函数分开，不然出不了结果）}$</p><p>$\Leftrightarrow x_2\ln x_2-\frac{1}{2}x_2^2+(2-x_2)\ln {(2-x_2)}-\frac{1}{2}(2-x_2)^2&gt;-1$  </p><p>$\Leftrightarrow F(x)&#x3D;x\ln x-x^2+2x-2+(2-x)\ln {(2-x)}&gt;-1$  </p><p>$\begin{aligned}<br>  F^{‘}(x)<br>  &amp;&#x3D;\ln x+1-2x+1-\ln {(2-x)}\quad(0&lt;x&lt;1)\\<br>  &amp;&#x3D;\ln x-\ln {(2-x)}-2x+1<br>\end{aligned}$  </p><p>$\begin{aligned}<br>  F^{‘’}(x)<br>  &amp;&#x3D;\frac{1}{x}+\frac{1}{2-x}-2\\<br>  &amp;&#x3D;\frac{2-x+x-2(2x-x^2)}{x(2-x)}\\<br>  &amp;&#x3D;\frac{2(x-1)^2}{x(2-x)}&gt;0<br>\end{aligned}$  </p><p>$\therefore F^{‘}(x)递增\qquad F^{‘}(x)_{max}&lt;F^{‘}(1)&#x3D;-1$  </p><p>$F(x)_{min}&gt;F(1)&#x3D;-1+2-2&#x3D;-1.$  </p><h3 id="例3"><a href="#例3" class="headerlink" title="例3"></a>例3</h3><p>$\color{Cyan}已知f(x)&#x3D;e^x-\frac{1}{2}x^2-ax，a\in R.$<br>$\color{Cyan}a\leq1时，若x_1\neq x_2，f(x_1)+f(x_2)&#x3D;2，求证：x_1+x_2&lt;0.$  </p><p>$a\leq1时，f(x)递增$  </p><p>$f^{‘}(x)&#x3D;e^x-x-a$  </p><p>$f^{‘’}(x)&#x3D;e^x-1\qquad令f^{‘’}(x)&#x3D;0\Rightarrow x&#x3D;0$  </p><p>$\therefore拐点f(0)&#x3D;1\qquad设x_1&gt;0&gt;x_2$  </p><p>$\therefore f(x_1)&#x3D;2-f(x_2)$  </p><p>$只需证x_1+x_2&lt;0\Rightarrow x_1&lt;-x_2$  </p><p>$\Leftrightarrow f(x_1)-f(x_2)&lt;0$  </p><p>$\Leftrightarrow2-f(x_2)-f(-x_2)&lt;0$  </p><p>$\Leftrightarrow f(x_2)+f(-x_2)&gt;2$  </p><p>$\begin{aligned}<br>  \Leftrightarrow F(x)<br>  &amp;&#x3D;e^x-\frac{1}{2}x^2+ax+\frac{1}{e^x}-\frac{1}{2}x^2+ax\\<br>  &amp;&#x3D;e^x+e^{-x}-x^2&gt;2<br>\end{aligned}$  </p><p>$\begin{aligned}<br>  F^{‘}(x)<br>  &amp;&#x3D;e^x-e^{-x}-2x\\<br>  &amp;&#x3D;e^x-\frac{1}{e^x}-2x\\<br>  &amp;&#x3D;\frac{e^x(e^x-2x)-1}{e^x}<br>\end{aligned}$  </p><p>$F^{‘’}(x)&#x3D;e^x+e^{-x}-2\geq0$$\color{Magenta}\textit{（用均值不等式判断）}$  </p><p>$\therefore F^{‘}(x)&lt;F^{‘}(0)&#x3D;0$  </p><p>$F(x)递减\qquad\therefore F(x)&gt;F(0)&#x3D;1+1&#x3D;2.$  </p><p>$\color{Magenta}以上套路解法成立的条件：f(x_1)+f(x_2)&#x3D;2f(x_0)\quad（x_0为拐点的x）$<br>$\color{red}\textit{（不能作为“是否是拐点题型”的判断依据.）}$  </p><h2 id="左右换元构造函数"><a href="#左右换元构造函数" class="headerlink" title="左右换元构造函数"></a>左右换元构造函数</h2><p>$\color{Cyan}已知f(x)&#x3D;\frac{2}{3}x^3-\frac{3}{2}x^2+\ln x为定义域上的增函数，设g(x)&#x3D;f(x)-\frac{2}{3}x^3-4\ln x+6x，$<br>$\color{Cyan}且g(x_1)+g(x_2)&#x3D;0，求证：x_1+x_2\geq2+\sqrt6.$  </p><p>$\color{Magenta}\xcancel{\begin{aligned}<br>  &amp;g(x)&#x3D;-\frac{3}{2}x^2-3ln x+6x\\<br>  &amp;g^{‘}(x)&#x3D;-3x-\frac{3}{x}+6\\<br>  &amp;g{‘’}(x)&#x3D;-3+\frac{3}{x^2}\qquad令g^{‘’}(x)&#x3D;0\Rightarrow\frac{3}{x^2}&#x3D;3\Rightarrow x&#x3D;1\\<br>  &amp;\therefore拐点g(1)&#x3D;-\frac{3}{2}+6&#x3D;\frac{9}{2}<br>\end{aligned}}$<br>$\color{Magenta}\textit{此题为拐点体型的变形，因为$g(x_1)+g(x_2)\neq2g(1)$，所以不能用套路}$  </p><p>$\because g(x_1)+g(x_2)&#x3D;0$  </p><p>$\Rightarrow-\frac{3}{2}x_1^2-3\ln x_1+6x_1-\frac{3}{2}x_2^2-3\ln x_2+6x_2&#x3D;0$  </p><p>$\Rightarrow-\frac{3}{2}(x_1^2+x_2^2)+6(x_1+x_2)-3\ln{x_1x_2}&#x3D;0$  </p><p>$(x_1+x_2)[-\frac{1}{2}(x_1+x_2)+2]&#x3D;\ln{x_1x_2}-x_1x_2$<br>$\color{Magenta}\textit{（把$x_1+x_2$、$x_1x_2$各放一边）}$  </p><p>$令t&#x3D;x_1x_2\quad\therefore右边&#x3D;\ln t-t&#x3D;h(t)\quad(t&gt;0)$$\color{Magenta}\textit{（换元掉不要的）}$  </p><p>$h^{‘}(t)&#x3D;\frac{1}{t}-1\quad\therefore h(t)&lt;-1$  </p><p>$令b&#x3D;x_1x_2\quad\therefore左边&#x3D;-\frac{1}{2}b^2+2b\Rightarrow-b^2+4b\leq-2\Rightarrow b^2-4b-2\geq0$<br>$\color{Magenta}\textit{（再换掉要的(为方便观察)）}$  </p><p>$\Rightarrow b\geq2+\sqrt6（负值舍去）$  </p><p>$\color{Magenta}拐点题型中若只有x、\ln x或x和\ln x都有但相互独立（即不是x\ln x、\frac{\ln x}{x}等）时都可用此法求解.$  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;知识点&quot;&gt;&lt;a href=&quot;#知识点&quot; class=&quot;headerlink&quot; title=&quot;知识点&quot;&gt;&lt;/a&gt;知识点&lt;/h2&gt;&lt;p&gt;$a,b&#92;in D,f(&#92;frac{a+b}{2})&amp;lt;&#92;frac{f(a)+f(b)}{2}$&lt;br&gt;&lt;img src=&quot;ht</summary>
+      
+    
+    
+    
+    <category term="Maths" scheme="https://blog.katorly.work/categories/Maths/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>导数——隐零点在高考中的应用</title>
+    <link href="https://blog.katorly.work/Derivative-5/"/>
+    <id>https://blog.katorly.work/Derivative-5/</id>
+    <published>2022-07-15T06:27:00.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>此处“零点”一般指$f^{‘}(x)&#x3D;0$的零点.<br>不好求出确定数值时，利用零点存在定理卡出零点范围，最后想办法消掉或化简.  </p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h3><p>$\color{Cyan}已知f(x)&#x3D;x+\ln x，g(x)&#x3D;x+\ln x-xe^x-1. 证明：f(x)\leq g(x).$  </p><p>$只需h(x)&#x3D;f(x)-g(x)&#x3D;x+\ln x-xe^x+1\leq0\quad(x&gt;0)$  </p><p>$h^{‘}(x)&#x3D;1+\frac{1}{x}-e^x-xe^x&#x3D;(x+1)(\frac{1}{x}-e^x)$$\color{Magenta}\textit{（$\frac{1}{x}-e^x$可用于求出零点方程）}$  </p><p>$\because x&gt;0\quad\therefore舍x&#x3D;-1$  </p><p>$\therefore令F(x)&#x3D;\frac{1}{x}-e^x\quad(x&gt;0)$  </p><p>$\because F(\frac{1}{2})&gt;0,F(1)&lt;0$$\color{Magenta}\textit{（猜数代入与0比大小）}$  </p><p>$\therefore存在x_0\in(\frac{1}{2},1)，使F(x)&#x3D;0$  </p><p>$\therefore\frac{1}{x_0}-e^x_0&#x3D;0$  </p><p>$x\in (0,x_0)时,h^{‘}(x)&gt;0\Rightarrow h(x)递增$  </p><p>$x\in (x_0,+\infty)时,h^{‘}(x)&lt;0\Rightarrow h(x)递减$  </p><p>$\therefore h(x)_{max}&#x3D;h(x_0)&#x3D;x_0+\ln x_0-x_0e^{x_0}+1$  </p><p>$\because\frac{1}{x_0}-e^{x_0}&#x3D;0\Rightarrow\begin{cases}<br>    x_0e^{x_0}&#x3D;1\\<br>    取对\Rightarrow x_0&#x3D;-\ln x_0\color{Magenta}\textit{（消除&#x2F;化简）}<br>\end{cases}$  </p><p>$\therefore h(x_0)&#x3D;-1+1\leq0\quad得证.$  </p><h3 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h3><p>$\color{Cyan}已知f(x)&#x3D;e^{x+a}-\ln x，证明：当a&gt;1-\frac{1}{e}时，f(x)&gt;e+1.$  </p><p>$f^{‘}(x)&#x3D;e^{x+a}-\frac{1}{x}$  </p><p>$令f^{‘}(x)&#x3D;0\Rightarrow\frac{1}{x}-e^{x+a}&#x3D;0$  </p><p>$\because f^{‘}(1)&gt;0,f^{‘}(\frac{1}{e^{a+1}})&lt;0$  </p><p>$\therefore存在x_0\in(\frac{1}{e^{a+1}},1)，使f^{‘}(x)&#x3D;0$  </p><p>$\therefore f(x)_{min}&#x3D;f(x_0)&#x3D;e^{x_0+a}-\ln x_0$  </p><p>$\frac{1}{x_0}-e^{x_0+a}&#x3D;0\quad取对\Rightarrow-\ln x_0&#x3D;x_0+a$  </p><p>$易知f(x_0)递减\qquad\therefore f(x_0)&gt;f(\frac{1}{e})&#x3D;e+1.$  </p><h3 id="例3"><a href="#例3" class="headerlink" title="例3"></a>例3</h3><p>$\color{Cyan}已知f(x)&#x3D;ax^2-ax-x\ln x，且f(x)\geq0.$<br>$\color{Cyan}当a&#x3D;1时，证明：f(x)存在唯一的极大值点x_0，且e^{-2}&lt;f(x_0)&lt;2^{-2}.$  </p><p>$f(x)&#x3D;x^2-x-x\ln x\geq0\quad(x&gt;0)$  </p><p>$f^{‘}(x)&#x3D;2x-1-\ln x-1&#x3D;2x-\ln x-2$<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/gkmaths/derivative-5-1.png">  </p><p>$f^{‘}(x)&#x3D;0\quad极小$  </p><p>$f^{‘’}(x)&#x3D;2-\frac{1}{x}$  </p><p>$\therefore x_0\in(0,\frac{1}{2}$  </p><p>$f^{‘}(x_0)&#x3D;2x_0-\ln x_0-2&#x3D;0$$\color{Magenta}\textit{（将$f(x_0)$作为一个函数）}$  </p><p>$\begin{aligned}<br>    \therefore f(x)_{max}<br>    &amp;&#x3D;f(x_0)&#x3D;x_0^2-x_0-x_0\ln x_0\\<br>    &amp;&#x3D;-x_0^2+x_0\in(0,\frac{1}{4})<br>\end{aligned}$  </p><p>$\therefore f(x_0)&lt;2^{-2}$  </p><p>$现只需-x_0^2+x_0&gt;e^{-2}$  </p><p>$\because f(\frac{1}{e})&#x3D;\frac{1}{e^2}+\frac{1}{e}&gt;\frac{1}{e^2}$  </p><p>$又f^{‘}(\frac{1}{e})\neq0$  </p><p>$\therefore f(x_0)&gt;e^{-2}.$  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;知识点&quot;&gt;&lt;a href=&quot;#知识点&quot; class=&quot;headerlink&quot; title=&quot;知识点&quot;&gt;&lt;/a&gt;知识点&lt;/h2&gt;&lt;p&gt;此处“零点”一般指$f^{‘}(x)&amp;#x3D;0$的零点.&lt;br&gt;不好求出确定数值时，利用零点存在定理卡出零点范围，最后想办法消掉</summary>
+      
+    
+    
+    
+    <category term="Maths" scheme="https://blog.katorly.work/categories/Maths/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>导数——放缩法在高考中的应用</title>
+    <link href="https://blog.katorly.work/Derivative-4/"/>
+    <id>https://blog.katorly.work/Derivative-4/</id>
+    <published>2022-07-15T03:45:00.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>${\color{Magenta}e^x\geq x+1} \quad当x&#x3D;0时取“&#x3D;”$</p><p>${\color{Magenta}x-1\geq\ln x} \quad当x&#x3D;1时取“&#x3D;”$  </p><p>$近年来\ln x&lt;\frac{1}{2}(x-x\frac{1}{x})&lt;x-1\textit{（新增）}$<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/gkmaths/derivative-4-1.png"><br>$证明：e.g.\quad e^x-x-1\geq 0\quad证其最小值大于等于0即可.$</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h3><p>$\color{Cyan}若x,y是实数，e^{x+y+2}-3\leq \ln(y-2x+1)+3x，则2x+y&#x3D;\underline{\phantom{answer}}.$  </p><p>$\textit{x+y}\leq e^{x+y+2}-3\leq \ln (y-2x+1)+3x\leq \textit{x+y}$  </p><p>$\therefore取“&#x3D;”$  </p><p>$\therefore\begin{cases}<br>    x+y+2&#x3D;0\\<br>    y-2x+1&#x3D;1<br>\end{cases}\Rightarrow\begin{cases}<br>    x&#x3D;-\frac{2}{3}\\<br>    y&#x3D;-\frac{4}{3}<br>\end{cases}$  </p><p>$\therefore 2x+y&#x3D;-\frac{8}{3}.$  </p><h3 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h3><p>$\color{Cyan}实数x,y满足2x&#x3D;\ln {(x+y-1)}+\ln {(x-y-1)}+4，则2020x^2+2019y^2&#x3D;\underline{\phantom{answer}}.$  </p><p>$\ln {(x+y-1)}\leq x+y-2$  </p><p>$\ln {(x-y-y)}\leq x-y-2$  </p><p>$\therefore 2x&#x3D;\ln {(x+y-1)}+\ln {(x-y-1)}+4\leq 2x$  </p><p>$\because取“&#x3D;”$  </p><p>$\therefore\begin{cases}<br>    x+y-1&#x3D;1\\<br>    x-y-1&#x3D;1<br>\end{cases}\Rightarrow\begin{cases}<br>    x&#x3D;2\\<br>    y&#x3D;0<br>\end{cases}$  </p><p>$\therefore 2020x^2+2019y^2&#x3D;8080.$  </p><h3 id="例3"><a href="#例3" class="headerlink" title="例3"></a>例3</h3><p>$\color{Cyan}设m为整数，且对于任意正整数n，(1+\frac{1}{2})(1+\frac{1}{2^2})(1+\frac{1}{2^3})\dotsm(1+\frac{1}{2^n})&lt;m，求m最小值.$<br>$\color{Magenta}\textit{（用$\ln x\leq x-1$来构造，因为有乘法）}$  </p><p>$\begin{aligned}<br>    \ln x\leq x-1<br>    &amp;\Rightarrow \ln {(x+1)}\leq x\\<br>    &amp;\Rightarrow \ln {(x+\frac{1}{2^k})}\leq\frac{1}{2^k}<br>\end{aligned}$  </p><p>$\therefore\frac{1}{2}+\frac{1}{2^2}+\frac{1}{2^3}+\dotsm+\frac{1}{2^n} &#x3D; 1-(\frac{1}{2})^n&lt;1$  </p><p>$\begin{aligned}<br>    &amp;\therefore取对\ln (\frac{1}{2}+1)+\ln (\frac{1}{2^2}+1)+\dotsm+\ln (\frac{1}{2^n}+1)\\<br>    &amp;&#x3D;\ln (1+\frac{1}{2})(1+\frac{1}{2^2})(1+\frac{1}{2^n})\\<br>    &amp;&lt;e&lt;3<br>\end{aligned}$  </p><p>$\therefore m&gt;3.$  </p><h3 id="例4"><a href="#例4" class="headerlink" title="例4"></a>例4</h3><p>$\color{Cyan}函数f(x)&#x3D;e^x-\ln {(x+m)}，求证：当m\leq 2时，f(x)&gt;0.$  </p><p>$\color{Magenta}\xcancel{\begin{aligned}<br>    &amp;e^x-\ln {(x+m)}&gt;0\qquad \ln {(x+m)}\leq x+m-1\\<br>    &amp;e^x-\ln {(x+m)}&gt;x+1-\ln {(x+m)}\\<br>    &amp;&gt;x+1-x-m+1&gt;2-m\geq 0<br>\end{aligned}}$  </p><p>$\color{Magenta}\textit{$e^x$和$\ln {(x+m)}$两者取等条件不一样$\quad\therefore$不可同时用}$  </p><p>$e^x\geq x+1\geq\ln {(x+2)}\geq\ln {(x+m)}$  </p><p>$\because等号不同时成立$  </p><p>$\therefore e^x&gt;\ln{(x+m)}\Rightarrow e^x-\ln{(x+m)}&gt;0.$  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;知识点&quot;&gt;&lt;a href=&quot;#知识点&quot; class=&quot;headerlink&quot; title=&quot;知识点&quot;&gt;&lt;/a&gt;知识点&lt;/h2&gt;&lt;p&gt;${&#92;color{Magenta}e^x&#92;geq x+1} &#92;quad当x&amp;#x3D;0时取“&amp;#x3D;”$&lt;/p&gt;
+&lt;p&gt;${&#92;</summary>
+      
+    
+    
+    
+    <category term="Maths" scheme="https://blog.katorly.work/categories/Maths/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>导数——极值点方程消参在高考中的应用</title>
+    <link href="https://blog.katorly.work/Derivative-3/"/>
+    <id>https://blog.katorly.work/Derivative-3/</id>
+    <published>2022-07-14T09:08:00.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>双极值点问题 $\Rightarrow f^{‘}(x)&#x3D;0两根为x_1,x_2 \Rightarrow 用韦达\begin{cases}<br>  对称式 &amp;\color{Magenta}消x_1,x_2,留a\\<br>  非对称式 &amp;\color{Magenta}消a,留x_1&#x2F;x_2<br>\end{cases}$<br>$\textit{（非对称式：看系数，把$x_1,x_2$互换后看是否与原来一致}$<br>$\textit{$\qquad e.g.\ x_1+x_2、f(x_1)+f(x_2)、\frac{f(x_1)+f(x_2)}{x_1-x_2}$为对称式}$<br>$\textit{$\qquad\qquad  x_1-x_2、f(x_1)+2f(x_2)$为非对称式）}$  </p><p>$\quad\color{Magenta}开口、端点、对称轴、\triangle \begin{cases}<br>  x_1+x_2 &#x3D; \\<br>  x_1\cdot x_2 &#x3D;<br>\end{cases}\quad含a$  </p><p>$\textit{（构造的新函数必单调）}$  </p><p>单极值点问题 $\Rightarrow f^{‘}(x)&#x3D;0根为x_0 \Rightarrow 利用f^{‘}(x)&#x3D;0方程 \color{Magenta}消a留x_0$</p><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h3><p>$\color{Cyan}设f(x)&#x3D;\ln x+x^2-ax\ (a \in R)存在两个极值点x_1,x_2,且x_1&lt;x_2,若0&lt;x_1&lt;\frac{1}{2}，$<br>$\color{Cyan}求证：f(x_1)-f(x_2)&gt;\frac{3}{4}-\ln 2.$$\color{Magenta}\textit{（非对称式）}$  </p><p>$f^{‘}(x)&#x3D;\frac{1}{x}+2x-a&#x3D;\frac{2x^2-ax+1}{x}$  </p><p>$令f^{‘}(x)&#x3D;0 \quad(x&gt;0)$  </p><p>$由韦达定理 \begin{cases}<br>  x_1+x_2&#x3D;\frac{a}{2} \\<br>  x_1\cdot x_2&#x3D;\frac{1}{2}<br>\end{cases} \Rightarrow a&#x3D;2x_1+2x_2, \quad x_2&#x3D;\frac{1}{2x_1}$  </p><p>$\begin{aligned}<br>  \therefore f(x_1)-f(x_2) &amp;&#x3D;\ln x_1+x_1^2-ax_1-\ln x_2-x_2^2+ax_2\\<br>  &amp;&#x3D;\ln \frac{x_1}{x_2}+x_1^2-x_2^2-2(x_1^2-x_2^2)\\<br>  &amp;&#x3D;\ln 2x_1^2-x_1^2+\frac{1}{4x_1^2}\\<br>  &amp;&#x3D;\ln 2+\ln x^2-x^2+\frac{1}{4x^2}\\<br>  &amp;&#x3D;g(x)\quad x\in(0,\frac{1}{2})<br>\end{aligned}$<br>$\color{Magenta}\textit{（留$x_1$，因为范围确定）}$  </p><p>$g^{‘}(x)&#x3D;\frac{-(2x^2-1)^2}{2x^3}&lt;0$  </p><p>$\therefore g(x)在(0,+\infty)递减$  </p><p>$\therefore g(x)_{min}&gt;g(\frac{1}{2})&#x3D;-\ln 2-\frac{1}{4}+1&#x3D;\frac{3}{4}-\ln 2.$  </p><h3 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h3><p>$\color{Cyan}已知f(x)&#x3D;e^x+\ln x-x, g(x)&#x3D;ae^x-\frac{1}{2}x^2-1.$<br>$\color{Cyan}当a&gt;0时，若F(x)&#x3D;af(x)-g(x)存在两极值点x_1,x_2，$  0<br>$\color{Cyan}且x_1\neq x_2，求证：F(x_1)+F(x_2)&lt;-2.$$\color{Magenta}\textit{（对称式）}$  </p><p>$F(x)&#x3D;\frac{1}{2}x^2+a(\ln x-x)+1 \quad(x&gt;0)$  </p><p>$F^{‘}(x)&#x3D;x+\frac{a}{x}-a&#x3D;\frac{x^2-ax+a}{x} \quad令F^{‘}(x)&#x3D;0$  </p><p>$由韦达定理 \begin{cases}<br>  x_1+x_2&#x3D;a \\<br>  x_1\cdot x_2&#x3D;a<br>\end{cases}$  </p><p>$\begin{aligned}<br>  \therefore F(x_1)+F(x_2)<br>  &amp;&#x3D;\frac{1}{2}x_1^2+a(\ln x_1-x_1)+\frac{1}{2}x_2^2+a(\ln x_2-x_2)+2\\<br>  &amp;&#x3D;-\frac{1}{2}a^2+a\ln a-a+2\\<br>  &amp;&#x3D;h(a)<br>\end{aligned}$  </p><p>$h^{‘}(a)&#x3D;\ln a-a&lt;0$  </p><p>$\therefore h(a)递减$  </p><p>$又\because \triangle&#x3D;a^2-4a&gt;0 \Rightarrow a\in (4,+\infty)$$\color{Magenta}\textit{（满足$F(x)$存在两极值点 $\Rightarrow$ 使$F^{‘}(x)&#x3D;0$有两解）}$  </p><p>$\therefore h(a)_{max}&#x3D;h(4)&#x3D;4(\ln 4-1)&lt;-2.$  </p><h3 id="例3"><a href="#例3" class="headerlink" title="例3"></a>例3</h3><p>$\color{Cyan}若f(x)&#x3D;x^2-x+a\ln x\quad (a&gt;0)存在两个极值点，$<br>$\color{Cyan}证明\frac{f(x_1)-f(x_2)}{x_1-x_2}&gt;4a-\frac{1}{2}.$  </p><p>$f^{‘}(x)&#x3D;2x-1+\frac{a}{x}&#x3D;\frac{2x^2-x+a}{x}$  </p><p>$\therefore \frac{f(x_1)-f(x_2)}{x_1-x_2}&#x3D;\frac{x_1^2-x_1+a\ln x_1-x_2^2+x_2-a\ln x_2}{x_1-x_2}$  </p><p>$令f^{‘}(x)&#x3D;0\quad 由韦达定理\begin{cases}<br>  x_1+x_2&#x3D;\frac{1}{2}\\<br>  x_1\cdot x_2&#x3D;\frac{1}{2}a<br>\end{cases} \Rightarrow a&#x3D;2x_1x_2,\quad 2x_1+2x_2&#x3D;1$  </p><p>$\begin{aligned}<br>  \therefore \frac{f(x_1)-f(x_2)}{x_1-x_2}<br>  &amp;&#x3D;\frac{(x_1+x_2-1)(x_1-x_2)+a\ln \frac{x_1}{x_2}}{x_1-x_2}\\<br>  &amp;&#x3D;-\frac{1}{2}+\frac{x_1x_2(\ln x_1-\ln x_2)}{x_1-x_2}<br>\end{aligned}$  </p><p>$只需证-\frac{1}{2}+\frac{x_1x_2(\ln x_1-\ln x_2)}{x_1-x_2}&gt;4a-\frac{1}{2}&#x3D;8x_1x_2-\frac{1}{2}$  </p><p>$\Leftrightarrow \frac{\ln x_1-\ln x_2}{x_1-x_2}&gt;4&#x3D;8(x_1+x_2)$  </p><p>$不妨设x_1&lt;x_2$$\color{Magenta}\textit{（这样好确定$\frac{x_1}{x_2}$的范围）}$  </p><p>$\Leftrightarrow \ln \frac{x_1}{x_2}&lt;\frac{2(\frac{x_1}{x_2}-1)}{\frac{x_1}{x_2}+1}$  </p><p>$令t&#x3D;\frac{x_1}{x_2}，则t\in (0,1)$  </p><p>$\Leftrightarrow h(x)&#x3D;\ln t-\frac{2(t-1)}{t+1}&lt;0$  </p><p>$h^{‘}(x)&#x3D;\frac{1}{t}-\frac{2}{(t+1)^2}&#x3D;\frac{t^2+1}{t(t+1)^2}&gt;0$  </p><p>$\therefore h(x)递增\quad \therefore h(x)_{max}&lt;h(1)&#x3D;0.$<br>$\color{Magenta}\textit{“只需证”之后其实为套路，对数平均不等式：}$<br>$\color{Magenta}\qquad \frac{x_1+x_2}{2}&gt;\frac{x_1-x_2}{\ln x_1-\ln x_2}$  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;知识点&quot;&gt;&lt;a href=&quot;#知识点&quot; class=&quot;headerlink&quot; title=&quot;知识点&quot;&gt;&lt;/a&gt;知识点&lt;/h2&gt;&lt;p&gt;双极值点问题 $&#92;Rightarrow f^{‘}(x)&amp;#x3D;0两根为x_1,x_2 &#92;Rightarrow 用韦达&#92;begi</summary>
+      
+    
+    
+    
+    <category term="Maths" scheme="https://blog.katorly.work/categories/Maths/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>导数——极值点偏移在高考中的应用</title>
+    <link href="https://blog.katorly.work/Derivative-2/"/>
+    <id>https://blog.katorly.work/Derivative-2/</id>
+    <published>2022-07-13T08:20:00.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p>$f(x)&#x3D;m$ 有2零点 $x_1, x_2, (f(x_1)&#x3D;f(x_2)), f(x)$ 极值点为 $x_0$，求证 $x_1+x_2 &gt;或&lt; 2x_0$  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/gkmaths/derivative-2-1.png"><br>极值点偏右：$x_1+x_2&lt;2x_0$<br>（联想中点公式）  </p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/gkmaths/derivative-2-2.png"><br>极值点偏左：$x_1+x_2&gt;2x_0$  </p><p>步骤（套路）（以左图为例）：</p><ol><li><p>$\color{Magenta}\textbf{判单调}$  $f(x)$ 在 $(-\infty,x_0)$ 递减，$(x_0, +\infty)$ 递增</p></li><li><p>$\color{Magenta}\textbf{转移区间}$  不妨设 $x_1&lt;x_0&lt;x_2$，只需证 $x_2&lt;2x_0-x_1$ （将小的那一项移向极值点那一边）</p></li><li><p>$\color{Magenta}\textbf{套 f(x)}$<br>$\because f(x)在(x_0,+\infty)递增$  </p><p>$\therefore只需证f(x_2)&lt;f(2x_0-x_1)$  </p><p>$又\because f(x_1)&#x3D;f(x_2)$  </p><p>$\therefore f({\color{Magenta}x_1})&lt;f(2x_0-{\color{Magenta}x_1})$<br>$\color{Magenta}\textit{（使只有一个变量）}$  </p></li><li><p>$\color{Magenta}\textbf{构造函数（必单调）}$<br>$g(x)&#x3D;f(x_1)-f(2x_0-x_1),x&#x3D;x_1\in(-\infty,x_0)$  </p><p>$只需证g(x)&lt;0在(-\infty,x_0)恒成立即可$  </p><p>$g(x)_{min}&lt;0.$</p></li></ol><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="例1"><a href="#例1" class="headerlink" title="例1"></a>例1</h3><p>${\color{Cyan}已知 (0,+\infty) 上 f(x)&#x3D;\frac{1}{2}x^3-mx+1 存在两个零点 x_1, x_2. 其中 m&gt;\frac{3}{2}，求证：x_1+x_2&gt;2.}$  </p><p>$f^{‘}(x)&#x3D;\frac{3}{2}x^2-m \quad令f^{‘}(x)&#x3D;0 \Rightarrow x_0&#x3D;\frac{\sqrt{6m}}{3}&gt;1（舍负）$  </p><p>$不妨设x_2&gt;x_0&gt;x_1 \therefore只需证x_2&gt;2-x_1$  </p><p>$\Leftrightarrow f(x_2)&gt;f(2-x_1) \Leftrightarrow \frac{1}{2}x_1^3-mx_1-\frac{1}{2}(2-x_1)^3-m(2-x_1)&gt;0$  </p><p>$\Leftrightarrow x^3-3x^2+6x-4-2m&#x3D;F(x)$  </p><p>$F^{‘}(x)&#x3D;3x^2-6x+6&gt;0 \therefore F(x)递增$  </p><p>$\therefore f(x_2)&gt;f(2-x_1) \Rightarrow x_1+x_2&gt;2$  </p><h3 id="例2"><a href="#例2" class="headerlink" title="例2"></a>例2</h3><p>$\color{Cyan}已知 f(x)&#x3D;(x-2)e^x+a(x-1)^2 有两个零点.$<br>$\color{Cyan}(1) 求 a 的取值范围.$<br>$\color{Cyan}(2) 设 x_1,x_2 是其两个零点，证明：x_1+x_2&lt;2.$  </p><p>$(1) 令 f(x)&#x3D;0 \Rightarrow -a&#x3D;\frac{(x-2)e^x}{(x-1)^2}&#x3D;g(x)$  </p><p>$g^{‘}(x)&#x3D;\frac{e^x(5-2x)}{(x-1)^3}$$\color{Magenta}\textit{（参变分离，当两个函数求有交点的范围时用）}$  </p><p>$x \rightarrow -\infty \Rightarrow g(x) \rightarrow 0$  </p><p>$x \rightarrow 1 \Rightarrow g(x) \rightarrow -\infty$  </p><p>$x \rightarrow +\infty \Rightarrow g(x) \rightarrow +\infty$  </p><p>$\therefore -a&lt;0 \Rightarrow a&gt;0$.  </p><p>$(2) f^{‘}(x)&#x3D;e^x(x-1)+2a(x-1)&#x3D;(e^x+2a)(x-1)$  </p><p>$令f^{‘}(x)&#x3D;0 \Rightarrow x_0&#x3D;1$  </p><p>$不妨设x_2&gt;1&gt;x_1$  </p><p>$只需证x_1+x_2&lt;2 \Leftrightarrow x_2&lt;2-x_1$  </p><p>$\Leftrightarrow f(x_1)&lt;f(2-x_1)$  </p><p>$\Leftrightarrow (x-2)e^x+xe^{2-x}&#x3D;F(x)$  </p><p>$F^{‘}(x)&#x3D;(e^x-\frac{e^2}{e^x})(x-1)$  </p><p>$\because x&#x3D;x_1&lt;1$  </p><p>$\therefore F^{‘}(x)&lt;0$  </p><p>$\therefore F(x) 递增$  </p><p>$\therefore f(x_1)&lt;f(2-x_1) \Rightarrow x_1+x_2&lt;2$.  </p><h3 id="例3"><a href="#例3" class="headerlink" title="例3"></a>例3</h3><p>$\color{Cyan}已知 f(x)&#x3D;x\ln x 的图像与直线 y&#x3D;m 交于不同的两点 A(x_1,y_1),B(x_2,y_2)，求证：x_1 \cdot x_2&lt;\frac{1}{e^2}.$<br>$\color{Magenta}\textit{（极值点偏移的变形）}$  </p><p>$不妨设0&lt;x_2&lt;\frac{1}{e}&lt;x_1$  </p><p>$f^{‘}(x)&#x3D;\ln x+1,令f^{‘}(x)&#x3D;0$  </p><p>$\Rightarrow x&#x3D;\frac{1}{e} \quad\therefore极小值为\frac{1}{e}$  </p><p>$\therefore x_1\cdot x_2&lt;\frac{1}{e^2} \Rightarrow x_1&lt;\frac{1}{x_2e^2}$$\color{Magenta}\textit{（移小的）}$  </p><p>$\begin{aligned}<br>   只需证F(x)<br>   &amp;&#x3D;f(x_1)-f(\frac{1}{x_2e^2})&lt;0<br>   &amp;{\color{Magenta}\textit{（余下的与极值点偏移相同）}}\\<br>   &amp;&#x3D;x_1\ln x_1+\frac{1}{x_1e^2}\ln x_1e^2&lt;0\\<br>   &amp;&#x3D;x\ln x+\frac{1}{xe^2}\ln xe^2&lt;0<br>\end{aligned}$  </p><p>$\begin{aligned}<br>   F^{‘}(x)<br>   &amp;&#x3D;\ln x+1-\frac{1}{x^2e^2}\ln xe^2\\<br>   &amp;&#x3D;(\ln x+1)(1-\frac{1}{x^2e^2})&gt;0 \quad(0&lt;x&lt;\frac{1}{e})<br>\end{aligned}$  </p><p>$\therefore F(x)递增$  </p><p>$\therefore F(x)_{max}&lt;F(\frac{1}{e})&#x3D;0 \quad得证$.  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;知识点&quot;&gt;&lt;a href=&quot;#知识点&quot; class=&quot;headerlink&quot; title=&quot;知识点&quot;&gt;&lt;/a&gt;知识点&lt;/h2&gt;&lt;p&gt;$f(x)&amp;#x3D;m$ 有2零点 $x_1, x_2, (f(x_1)&amp;#x3D;f(x_2)), f(x)$ 极值点为 $x_</summary>
+      
+    
+    
+    
+    <category term="Maths" scheme="https://blog.katorly.work/categories/Maths/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>解决Github Copilot无法连接到服务器&quot;connect ECONNREFUSED 127.0.0.1:443&quot;的问题</title>
+    <link href="https://blog.katorly.work/Solving-Github-Copilot-DNS-Address/"/>
+    <id>https://blog.katorly.work/Solving-Github-Copilot-DNS-Address/</id>
+    <published>2022-05-06T15:04:00.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>这个问题其实5月份就有。话不多说，直接贴别人问的问题：  </p><blockquote><p>求问vscode 的copilot 连不上服务器报错read ECONNRESET，如何解决？<br>GitHub Copilot could not connect to server. Extension activation failed: “read ECONNRESET”</p></blockquote><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>是国内的魔幻网络和运营商搞的鬼。运营商将<code>github.com</code>的地址解析到了本地<code>127.0.0.1</code>（DNS污染），因此无法访问。  </p><p>尝试修改您电脑的DNS服务器地址以解决此问题：</p><ul><li>将ipv4改为<code>8.8.8.8</code></li><li>将ipv6改为<code>2001:4860:4860::8888</code></li></ul><p>再在命令行中通过<code>nslookup github.com</code>来查看解析是否正确：</p><p><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/blog/20220606084241.png">  </p><p>我使用了此方法，并且问题得到了解决。如果答案对您有帮助，可以分享这篇文章，让更多的人看到！  </p><p>参考资料以及详细过程：<a href="https://www.zhihu.com/question/518408113/answer/2500892553">https://www.zhihu.com/question/518408113/answer/2500892553</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;这个问题其实5月份就有。话不多说，直接贴别人问的问题：  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;求问vscode 的co</summary>
+      
+    
+    
+    
+    <category term="Github" scheme="https://blog.katorly.work/categories/Github/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在去MC化的道路上——MCBBSv4测评</title>
+    <link href="https://blog.katorly.work/MCBBS-v4-beta/"/>
+    <id>https://blog.katorly.work/MCBBS-v4-beta/</id>
+    <published>2022-04-02T01:05:00.000Z</published>
+    <updated>2024-03-06T13:49:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>原文发于MCBBS：<a href="https://www.mcbbs.net/thread-1321517-1-1.html">https://www.mcbbs.net/thread-1321517-1-1.html</a>  </p><p>本来我是不打算发评测帖的，毕竟快乐小方写得已经够全面了。不过还是发吧XD，发一些已有帖子未展示的内容。  </p><p><strong>圆规</strong>正传，下面我们先来看看v4现有的界面和功能吧~  </p><h2 id="v4中的功能"><a href="#v4中的功能" class="headerlink" title="v4中的功能"></a>v4中的功能</h2><p>与现在的v2不同，v4实现了全坛资源分类、搜索，将不再会有人去反馈版提问如何搜索资源啦~<br>资源类型分类：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E5%88%86%E7%B1%BB%E5%8A%9F%E8%83%BD.PNG"></p><p>游戏版本分类：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E6%B8%B8%E6%88%8F%E7%89%88%E6%9C%AC%E5%8A%9F%E8%83%BD.PNG"></p><p>在v2，如果外国人来了怎么办？只能用右上角谷歌翻译；<br>但是v4（虽然没什么用，毕竟资源介绍不会变成其它语言）：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E5%88%87%E6%8D%A2%E8%AF%AD%E8%A8%80.PNG"></p><p>在v4中，通过两步验证功能，帐号安全可以得到更好的保障：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E4%B8%A4%E6%AD%A5%E9%AA%8C%E8%AF%81%E5%8A%9F%E8%83%BD.PNG"></p><p>夜晚浏览MCBBS，开了浏览器黑夜模式也没用？没事，绵羊<del>采用了船新技术</del>实现了这个功能的内置（未开放给用户）：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E7%BB%B5%E7%BE%8A%E7%9A%84%E9%BB%91%E5%A4%9C%E6%A8%A1%E5%BC%8F.png"></p><p>作为自研的正在开发中的v4，还没进入站点你就能发现<del>它这最大的功能更新</del>（只能通过Ctrl+F5解决）：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E5%9D%8F%E6%8E%89%E7%9A%84%E7%95%8C%E9%9D%A2.PNG">  </p><h2 id="v4中的组件"><a href="#v4中的组件" class="headerlink" title="v4中的组件"></a>v4中的组件</h2><p>在客户端Console显示的版权信息：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E5%9C%A8Console%E7%9A%84%E4%BF%A1%E6%81%AF.PNG"><br>如果你也想实现这种文字，可以去<a href="https://patorjk.com/software/taag">Text to ASCII</a>生成。  </p><p>点赞、收藏、删除、举报：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E7%82%B9%E8%B5%9E%E6%94%B6%E8%97%8F%E5%88%A0%E9%99%A4%E4%B8%BE%E6%8A%A5.PNG">  </p><p>因为有Bug，版本那里干脆就不允许用户在成功发布一个版本后编辑那一个版本的文件了：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E5%B9%B2%E8%84%86%E4%B8%8D%E5%85%81%E8%AE%B8%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6.PNG">  </p><p>对404 Not Found也有了特定的界面，而不是像现在v2这样用discuz!默认的：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E6%AD%A3%E5%B8%B8404%E9%A1%B5%E9%9D%A2.PNG"><br>当然在昨天（愚人节）404页面也有彩蛋：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E6%84%9A%E4%BA%BA%E8%8A%82404%E9%A1%B5%E9%9D%A2.PNG">  </p><p>每个资源的末尾，都有作者信息，<del>如果再加个赞助按钮恰饭就很方便了</del>：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E8%B5%84%E6%BA%90%E6%9C%AB%E5%B0%BE.PNG">  </p><h2 id="开发历程"><a href="#开发历程" class="headerlink" title="开发历程"></a>开发历程</h2><p>最开始的v2界面长这样，黑色的地方是打算替换成相应分类的图片的：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E5%8E%9F%E5%A7%8BUI.jpg"></p><p>后来征求了一下大家对于这个UI的意见（<del>好评满满</del>）：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E6%97%A7UI%E5%8F%8D%E9%A6%88.PNG"></p><p>于是宅魂<del>异想天开</del>，但最终因为广告面积太大遭到了大家的反对：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/UI%E5%BA%9F%E7%A8%BF.png"><br>于是界面最终稍微改了一下，变成了现在的样子（在别的帖看得到，我就不放了）。  </p><p>最<strong>生草</strong>的，莫过于Zapic设计的“让用户扔掉小键盘”的验证码功能XD：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/Zapic%E7%9A%84%E9%AA%8C%E8%AF%81%E7%A0%81.jpg">  </p><h2 id="说说我的感受"><a href="#说说我的感受" class="headerlink" title="说说我的感受"></a>说说我的感受</h2><p>总体来讲，这次v4还是挺令人期待的。<del>自研最起码比v3强</del><br>完全丢弃了dicuz!和其它论坛系统，自主研发了一个资源中心，开发人员实在令人钦佩。  </p><p>在发帖上，摒弃了bbcode，完全使用markdown，降低了帖子排版的难度，也减少了奇奇怪怪的排版的产生。但是怎么不用<a href="https://milkdown.dev/">Milkdown</a>呢，这个可以让用户在markdown的同时也可以选择用富文本编辑，方便不会markdown的用户，一举两得，多好……  </p><p>相比v1和v2，v4在设计元素上实现了去MC化，这点我很赞成。我个人觉得MC社区没必要那么多MC元素，像Minecraft Forum和PMC多好，不要像wy那样，放入过多的MC元素，只起到了吸引圈外的玩家，对于广大圈内的Minecraft玩家并没有什么好处，看多了只会审美疲劳。  </p><p>在帖子分离上，v4起到了资源站的作用，实现了资源站与讨论站的分离，减少错版现象。对于纯粹找资源的会员和访客来讲，这无疑是最大的福利：不会被水帖和夹杂在一起的版块干扰，像PMC那样给予用户纯净浏览资源的体验。  </p><p>虽然目前大部分页面和功能都没有完成，但辛勤的开发人员已经马不停蹄地赶了至少2个月。期待v4的最终建成！  </p><h2 id="解答几个问题"><a href="#解答几个问题" class="headerlink" title="解答几个问题"></a>解答几个问题</h2><p><strong>Q:</strong> 大家都在昨天发评测帖，为什么你要今天才发？<br><strong>A:</strong> 昨天是什么日子你懂的，不方便发XD  </p><p><strong>Q:</strong> 你的帖子内容怎么这么少？<br><strong>A:</strong> 其它有关v4的内容可以在这里查看，因为快乐小方分享得比较全面：<br><a href="https://www.mcbbs.net/thread-1321313-1-1.html">【绝密】MCBBS v4 ■■情报泄露！内附评测报告！</a>  </p><p><strong>Q:</strong> v4是不是最近才开始内测？<br><strong>A:</strong> 不是的，详情可以见这个公告发布的时间：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E6%B5%8B%E8%AF%95%E5%BC%80%E5%A7%8B%E6%97%B6%E9%97%B4.PNG">  </p><p><strong>Q:</strong> v4在哪里？我想去看看！<br><strong>A:</strong> 下周就公开邀请测试了，你急什么XD  </p><p><strong>Q:</strong> 为什么突然多了这么多v4评测帖？<br><strong>A:</strong> 因为这个：<br><img src="https://cdn.jsdelivr.net/gh/katorly/Gallery001/other/%E4%B8%BA%E4%BB%80%E4%B9%88%E7%AA%81%E7%84%B6%E8%BF%99%E4%B9%88%E5%A4%9A%E8%AF%84%E6%B5%8B%E5%B8%96.png">  </p><p>本次分享就到这里了，看了这么多关于v4的评测帖，大家有什么想法呢？<strong>欢迎发表观点哦！</strong>  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;原文发于MCBBS：&lt;a href=&quot;https://www.mcbbs.net/thread-1321517-1-1.html&quot;&gt;https://www.mcbbs.net/thread-1321517-1-1.html&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;本来我是不打算发评测帖的</summary>
+      
+    
+    
+    
+    <category term="Minecraft" scheme="https://blog.katorly.work/categories/Minecraft/"/>
+    
+    
+  </entry>
+  
+</feed>
